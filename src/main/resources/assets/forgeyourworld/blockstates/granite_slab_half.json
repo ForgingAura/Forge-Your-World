@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "forgeyourworld:granite_slab_bottom" },
+        "half=top": { "model": "forgeyourworld:granite_slab_top" }
+    }
+}

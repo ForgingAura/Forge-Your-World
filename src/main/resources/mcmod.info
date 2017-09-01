@@ -1,0 +1,15 @@
+[
+{
+  "modid": "forgeyourworld",
+  "name": "Forge Your World",
+  "description": "this mod is cool",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://forgingaurateam.esy.es/",
+  "updateUrl": "",
+  "authorList": ["AlasDiablo, Rom279 & sebpap974"],
+  "credits": "Mod By AlasDiablo(leader of development and starter of the project), Rom279(team manager and secondary developers) and sebpap974(Main tester). For block Model i using a tool by MrCrayfish https://mrcrayfish.com/tools?id=mc",
+  "logoFile": "",
+  "screenshots": []
+}
+]

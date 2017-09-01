@@ -1,0 +1,60 @@
+﻿//en Lang
+
+//Items
+item.flour.name=Flour
+item.toast.name=Toast
+item.applejam.name=Apple Jam
+item.appletoast.name=Toast with Apple Jam
+item.rawterillium.name=Raw Terillium
+item.terillium.name=Terillium
+item.cereals.name=Cereals
+item.chocolatecereals.name=Chocolate Cereals
+item.cerealsbowl.name=Cereals Bowl
+item.chocolatecerealsbowl.name=Chocolate Cereals Bowl
+item.terilliumleggings.name=Terillium Leggings
+item.terilliumboots.name=Terillium Boots
+item.terilliumhelmet.name=Terillium Helmet
+item.terilliumchestplate.name=Terillium ChestPlate
+item.terilliumsword.name=Terillium Sword
+item.terilliumshovel.name=Terillium Shovel
+item.terilliumpickaxe.name=Terillium Pickaxe
+item.terilliumhoe.name=Terillium Hoe
+item.terilliumaxe.name=Terillium Axe
+item.blazecoal.name=Blaze Coal
+item.kitchenknife.name=Kitchen Knife
+
+//Creative Tab
+itemGroup.tabThings=Forge Your World: Useless Things
+itemGroup.tabFood=Forge Your World: Food
+itemGroup.tabResource=Forge Your World: Resource
+itemGroup.tabToolArmor=Forge Your World: Tools And Armors
+
+//Blocks
+tile.TerilliumOre.name=Terillium Ore
+tile.AppleJamJar.name=Jar of Apple Jam
+tile.BlazeCoalBlock.name=Blaze Coal Block
+tile.BlazeCoalOre.name=Blaze Coal Ore
+tile.AndesiteBrick.name=Andesite Brick
+tile.AndesiteBrickCarved.name=Andesite Brick Carved
+tile.AndesiteBrickCracked.name=Andesite Brick Cracked
+tile.AndesiteBrickMossy.name=Andesite Brick Mossy
+tile.andesite_slab_half.name=Andesite Brick Slab
+tile.andesite_slab_double.name=Andesite Brick Slab
+tile.EnderiumOre.name=Enderium Ore
+tile.DioriteBrick.name=Diorite Brick
+tile.DioriteBrickCarved.name=Diorite Brick Carved
+tile.DioriteBrickCracked.name=Diorite Brick Cracked
+tile.DioriteBrickMossy.name=Diorite Brick Mossy
+tile.diorite_slab_half.name=Diorite Brick Slab
+tile.diorite_slab_double.name=Diorite Brick Slab
+tile.GraniteBrick.name=Granite Brick
+tile.GraniteBrickCarved.name=Granite Brick Carved
+tile.GraniteBrickCracked.name=Granite Brick Cracked
+tile.GraniteBrickMossy.name=Granite Brick Mossy
+tile.granite_slab_half.name=Granite Brick Slab
+tile.granite_slab_double.name=Granite Brick Slab
+tile.EndStoneBrickCarved.name=End Stone Brick Carved
+tile.EndStoneBrickCracked.name=End Stone Brick Cracked
+tile.EndStoneBrickMossy.name=End Stone Brick Mossy
+tile.endstone_slab_half.name=End Stone Brick Slab
+tile.endstone_slab_double.name=End Stone Brick Slab

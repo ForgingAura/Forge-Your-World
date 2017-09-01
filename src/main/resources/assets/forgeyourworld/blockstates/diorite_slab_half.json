@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "forgeyourworld:diorite_slab_bottom" },
+        "half=top": { "model": "forgeyourworld:diorite_slab_top" }
+    }
+}

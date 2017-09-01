@@ -1,0 +1,60 @@
+﻿//fr lang
+
+//Items
+item.flour.name=Farine
+item.toast.name=Pain grillé
+item.applejam.name=Confiture de Pomme
+item.appletoast.name=Tartine a la Confiture de Pomme
+item.rawterillium.name=Terillium Brut
+item.terillium.name=Terillium
+item.cereals.name=Céréales
+item.chocolatecereals.name=Céréales au Chocolat
+item.cerealsbowl.name=Bol de Céréales
+item.chocolatecerealsbowl.name=Bol de Céréales au Chocolat
+item.terilliumleggings.name=Jambières en Terillium
+item.terilliumboots.name=Bottes en Terillium
+item.terilliumhelmet.name=Casque en Terillium
+item.terilliumchestplate.name=Cuirasse en Terillium
+item.terilliumsword.name=Terillium Sword
+item.terilliumshovel.name=Terillium Shovel
+item.terilliumpickaxe.name=Terillium Pickaxe
+item.terilliumhoe.name=Terillium Hoe
+item.terilliumaxe.name=Terillium Axe
+item.blazecoal.name=Charbon de Blaze
+item.kitchenknife.name=Couteau de Cuisine
+
+//Creative Tab
+itemGroup.tabThings=Forge Your World: Choses inutiles
+itemGroup.tabFood=Forge Your World: Alimentation
+itemGroup.tabResource=Forge Your World: Ressource
+itemGroup.tabToolArmor=Forge Your World: Outils et Armures
+
+//Blocks
+tile.TerilliumOre.name=Minerai de Terillium
+tile.AppleJamJar.name=Pot de Confiture de Pomme
+tile.BlazeCoalBlock.name=Bloc de Charbon de Blaze
+tile.BlazeCoalOre.name=Minerai de Charbon de Blaze
+tile.AndesiteBrick.name=Andesite Taillée
+tile.AndesiteBrickCarved.name=Andesite Sculptée
+tile.AndesiteBrickCracked.name=Andesite Taillée Craquelée
+tile.AndesiteBrickMossy.name=Andesite Taillée Moussue
+tile.andesite_slab_half.name=Dalle en Andesite Taillée
+tile.andesite_slab_double.name=Dalle en Andesite Taillée
+tile.EnderiumOre.name=Minerai d'Enderium
+tile.DioriteBrick.name=Diorite Taillée
+tile.DioriteBrickCarved.name=Diorite Sculptée
+tile.DioriteBrickCracked.name=Diorite Taillée Craquelée
+tile.DioriteBrickMossy.name=Diorite Taillée Moussue
+tile.diorite_slab_half.name=Dalle en Diorite Taillée
+tile.diorite_slab_double.name=Dalle en Diorite Taillée
+tile.GraniteBrick.name=Granite Taillée
+tile.GraniteBrickCarved.name=Granite Sculptée
+tile.GraniteBrickCracked.name=Granite Taillée Craquelée
+tile.GraniteBrickMossy.name=Granite Taillée Moussue
+tile.granite_slab_half.name=Dalle en Granite Taillée
+tile.granite_slab_double.name=Dalle en Granite Taillée
+tile.EndStoneBrickCarved.name=Brique de l'End Sculptée
+tile.EndStoneBrickCracked.name=Brique de l'End Craquelée
+tile.EndStoneBrickMossy.name=Brique de l'End Moussue
+tile.endstone_slab_half.name=Dalle en Brique de l'End
+tile.endstone_slab_double.name=Dalle en Brique de l'End
