@@ -100,7 +100,7 @@ public class BlocksHandler {
         registerSlabHalf(endstone_slab_half, new ItemSlab(endstone_slab_half, endstone_slab_half, endstone_slab_double));
         registerBlock(endstone_slab_double);
 	}
-	
+
 	private static void registerBlock(Block block) {
 		GameRegistry.findRegistry(Block.class).register(block);
 		ItemBlock item = new ItemBlock(block);
