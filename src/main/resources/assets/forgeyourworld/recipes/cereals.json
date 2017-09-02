@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "minecraft:item",
+      "item": "minecraft:sugar"
+    },
+    {
+      "type": "minecraft:item",
+      "item": "forgeyourworld:flour"
+    }
+  ],
+  "result": {
+    "type": "minecraft:item",
+    "item": "forgeyourworld:cereals"
+  }
+}

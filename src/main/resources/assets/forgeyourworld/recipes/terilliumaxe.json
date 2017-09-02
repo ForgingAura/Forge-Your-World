@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AB",
+    " B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "forgeyourworld:terillium"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "forgeyourworld:terilliumaxe"
+  }
+}

@@ -10,7 +10,7 @@
       "item": "forgeyourworld:applejam"
     },
     "B": {
-      "item": "minecraft:glass"
+      "block": "minecraft:glass"
     }
   },
   "result": {

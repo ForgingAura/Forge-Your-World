@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "ABA",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "forgeyourworld:rawterillium"
+    }
+  },
+  "result": {
+    "type": "minecraft:block",
+    "item": "forgeyourworld:terillium",
+    "count": 1
+  }
+}

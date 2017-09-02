@@ -22,12 +22,19 @@ public class RecipeHandler {
 		GameRegistry.addShapedRecipe(new ItemStack(BlocksHandler.applejamjar), "AAA", "AGA", "AAA", 'G', Blocks.GLASS, 'A', ItemsHandler.applejam);
 
 		GameRegistry.addShapedRecipe(new ItemStack(ItemsHandler.terillium), " G ", "RTR", " G ", 'G', Items.GLOWSTONE_DUST, 'R', Items.REDSTONE, 'T', ItemsHandler.rawterillium);
+
 		GameRegistry.addShapedRecipe(new ItemStack(ItemsHandler.appletoast, 8),  "TTT", "TJT", "TTT", 'T', ItemsHandler.toast, 'J', BlocksHandler.applejamjar);
+
 		GameRegistry.addShapelessRecipe(new ItemStack(ItemsHandler.cereals), new Object[] { Items.SUGAR, ItemsHandler.flour });
+
 		GameRegistry.addShapelessRecipe(new ItemStack(ItemsHandler.chocolatecereals), new Object[] { Items.SUGAR, new ItemStack(Items.DYE, 1 , 3), ItemsHandler.flour });
+
 		GameRegistry.addShapelessRecipe(new ItemStack(ItemsHandler.cerealsbowl), new Object[] { Items.BOWL, Items.MILK_BUCKET, ItemsHandler.cereals });
+
 		GameRegistry.addShapelessRecipe(new ItemStack(ItemsHandler.chocolatecerealsbowl), new Object[] { Items.BOWL, Items.MILK_BUCKET, ItemsHandler.chocolatecereals });
+
 		GameRegistry.addShapedRecipe(new ItemStack(ItemsHandler.terilliumaxe), "TT", "TS", " S", 'T', ItemsHandler.terillium, 'S', Items.STICK);
+		
 		GameRegistry.addShapedRecipe(new ItemStack(ItemsHandler.terilliumboots), "T T", "T T", 'T', ItemsHandler.terillium);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemsHandler.terilliumchestplate), "T T", "TTT","TTT", 'T', ItemsHandler.terillium);
 		GameRegistry.addShapedRecipe(new ItemStack(ItemsHandler.terilliumhelmet), "TTT", "T T", 'T', ItemsHandler.terillium);

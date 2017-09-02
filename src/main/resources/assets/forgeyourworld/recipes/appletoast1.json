@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "B": {
+      "block": "forgeyourworld:applejamjar"
+    },
+    "A": {
+      "item": "forgeyourworld:toast"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "forgeyourworld:appletoast",
+    "count": 8
+  }
+}
