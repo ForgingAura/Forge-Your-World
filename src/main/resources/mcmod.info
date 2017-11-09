@@ -1,15 +1,44 @@
 [
 {
-  "modid": "forgeyourworld",
-  "name": "Forge Your World",
-  "description": "this mod is cool",
+  "modid": "fresource",
+  "name": "Forge Your World Resource",
+  "description": "I'm going mining some resouces.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "http://forgingaurateam.esy.es/",
+  "url": "",
   "updateUrl": "",
-  "authorList": ["AlasDiablo, Rom279 & sebpap974"],
-  "credits": "Mod By AlasDiablo(leader of development and starter of the project), Rom279(team manager and secondary developers) and sebpap974(Main tester). For block Model i using a tool by MrCrayfish https://mrcrayfish.com/tools?id=mc",
+  "authorList": ["aladiablo"],
+  "credits": "The Forge and FML guys and me",
   "logoFile": "",
-  "screenshots": []
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "ffactory",
+  "name": "Forge Your World Factory",
+  "description": "Is for create a nuke ahahahhahah! .... eh no is just simple factory stuff.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["aladiablo"],
+  "credits": "The Forge and FML guys and me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+  "modid": "farmory",
+  "name": "Forge Your World Armory",
+  "description": "Welcome to the battlefield.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["aladiablo"],
+  "credits": "The Forge and FML guys and me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
 }
 ]

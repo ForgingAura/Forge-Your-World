@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "forgeyourworld:blocks/brick/granitebrick",
-        "top": "forgeyourworld:blocks/brick/granitebrick",
-        "side": "forgeyourworld:blocks/brick/granitebrick"
-    }
-}

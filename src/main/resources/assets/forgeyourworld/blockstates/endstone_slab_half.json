@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "half=bottom": { "model": "forgeyourworld:endstone_slab_bottom" },
-        "half=top": { "model": "forgeyourworld:endstone_slab_top" }
-    }
-}

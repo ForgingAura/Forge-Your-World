@@ -1,6 +1,0 @@
-{
-    "variants": {
-        "half=top": { "model": "forgeyourworld:andesitebrick" },
-		"half=bottom": { "model": "forgeyourworld:andesitebrick" }
-    }
-}

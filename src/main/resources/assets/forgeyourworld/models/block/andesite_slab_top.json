@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "forgeyourworld:blocks/brick/andesitebrick",
-        "top": "forgeyourworld:blocks/brick/andesitebrick",
-        "side": "forgeyourworld:blocks/brick/andesitebrick"
-    }
-}
