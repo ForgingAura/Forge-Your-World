@@ -2,6 +2,7 @@ package forgingaura.forgeyourworld.ffactory;
 
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -16,6 +17,6 @@ public class FactoryTab extends CreativeTabs{
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(Item.getItemFromBlock(ResourceBlock.blazecoalblock));
+        return new ItemStack(Item.getItemFromBlock(Blocks.FURNACE));
     }
 }

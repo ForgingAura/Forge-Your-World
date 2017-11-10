@@ -26,7 +26,7 @@ public class FFactory {
     @SidedProxy(clientSide = FFactory.CLIENT_PROXY_CLASSE, serverSide = FFactory.SERVER_PROXY_CLASSE)
     public static FactoryCommon proxy;
 
-    public static final CreativeTabs FACTORY_TAB = new FactoryTab();
+    //public static final CreativeTabs FACTORY_TAB = new FactoryTab();
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
