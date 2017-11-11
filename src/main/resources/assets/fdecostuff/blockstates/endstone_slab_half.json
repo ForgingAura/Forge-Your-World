@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "fdecostuff:endstone_slab_bottom" },
+        "half=top": { "model": "fdecostuff:endstone_slab_top" }
+    }
+}

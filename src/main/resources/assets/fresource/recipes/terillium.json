@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "CBC",
+    " A "
+  ],
+  "key": {
+    "B": {
+      "item": "fresource:rawterillium"
+    },
+    "A": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "C": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "fresource:terillium"
+  }
+}

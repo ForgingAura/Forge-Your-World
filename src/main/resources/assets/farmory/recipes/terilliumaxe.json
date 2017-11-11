@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AB",
+    " B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "fresource:terillium"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "farmory:terilliumaxe"
+  }
+}

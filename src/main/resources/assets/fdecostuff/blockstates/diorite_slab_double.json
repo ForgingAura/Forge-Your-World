@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=top": { "model": "fdecostuff:dioritebrick" },
+		"half=bottom": { "model": "fdecostuff:dioritebrick" }
+    }
+}

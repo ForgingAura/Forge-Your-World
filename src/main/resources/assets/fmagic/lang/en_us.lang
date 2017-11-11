@@ -1,0 +1,11 @@
+//en lang
+
+//items
+item.wseed.name=Wither Seed
+item.wfragment.name=Wither Fragment
+
+//Creative Tab
+itemGroup.tabMagic=Forge Your World: Mystical
+
+//blocks
+tile.withercrops.name=Wither Crop

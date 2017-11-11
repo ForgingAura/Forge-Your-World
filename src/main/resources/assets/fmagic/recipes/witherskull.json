@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "ABA",
+    "BAB"
+  ],
+  "key": {
+    "B": {
+      "item": "fmagic:wfragment"
+    },
+    "A": {
+      "item": "fresource:terillium"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "minecraft:skull",
+    "data": 1
+  }
+}

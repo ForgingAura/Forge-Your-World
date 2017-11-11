@@ -1,7 +1,6 @@
 package forgingaura.forgeyourworld.ffoods.init;
 
 import forgingaura.forgeyourworld.FFoods;
-import forgingaura.forgeyourworld.FResource;
 import forgingaura.forgeyourworld.ffoods.item.*;
 import forgingaura.forgeyourworld.util.Utils;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;

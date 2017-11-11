@@ -54,5 +54,19 @@
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
+},
+{
+  "modid": "fdecostuff",
+  "name": "Forge Your World Decoration And Stuff",
+  "description": "Add some thing.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AlaDiablo, rom279, sebpap974"],
+  "credits": "The Forge and FML guys and me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
 }
 ]

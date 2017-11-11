@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom": { "model": "fdecostuff:granite_slab_bottom" },
+        "half=top": { "model": "fdecostuff:granite_slab_top" }
+    }
+}

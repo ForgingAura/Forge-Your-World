@@ -1,5 +1,6 @@
 package forgingaura.forgeyourworld.ffoods.proxy;
 
+import forgingaura.forgeyourworld.ffoods.handler.FoodsRecipe;
 import forgingaura.forgeyourworld.ffoods.init.FoodsBlock;
 import forgingaura.forgeyourworld.ffoods.init.FoodsItem;
 
