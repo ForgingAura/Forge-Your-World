@@ -1,5 +1,6 @@
 package forgingaura.forgeyourworld.fdecostuff.proxy;
 
+import forgingaura.forgeyourworld.fdecostuff.handler.DecoStuffRecipe;
 import forgingaura.forgeyourworld.fdecostuff.init.DecoStuffBlock;
 
 /**
@@ -18,6 +19,7 @@ public class DecoStuffClient implements DecoStuffCommon {
 
     @Override
     public void init() {
+        DecoStuffRecipe.register();
 
     }
 }

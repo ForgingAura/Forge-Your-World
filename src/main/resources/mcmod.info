@@ -68,5 +68,19 @@
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
+},
+{
+  "modid": "fmagic",
+  "name": "Forge Your World Mystical",
+  "description": "look it's magic.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AlaDiablo, rom279, sebpap974"],
+  "credits": "The Forge and FML guys and me",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
 }
 ]

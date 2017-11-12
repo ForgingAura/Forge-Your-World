@@ -1,6 +1,5 @@
 package forgingaura.forgeyourworld.ffoods;
 
-import forgingaura.forgeyourworld.farmory.init.ArmoryWeaponToolItem;
 import forgingaura.forgeyourworld.ffoods.init.FoodsBlock;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;

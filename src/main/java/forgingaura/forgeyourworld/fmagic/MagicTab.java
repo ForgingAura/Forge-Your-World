@@ -1,5 +1,6 @@
 package forgingaura.forgeyourworld.fmagic;
 
+import forgingaura.forgeyourworld.fmagic.init.MagicItem;
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -16,6 +17,6 @@ public class MagicTab extends CreativeTabs {
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(Item.getItemFromBlock(ResourceBlock.blazecoalblock));
+        return new ItemStack(MagicItem.witherfragment);
     }
 }

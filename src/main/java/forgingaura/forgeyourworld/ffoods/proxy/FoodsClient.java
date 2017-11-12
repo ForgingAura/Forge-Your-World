@@ -22,6 +22,7 @@ public class FoodsClient implements FoodsCommon {
 
     @Override
     public void init() {
+        FoodsRecipe.register();
 
     }
 }

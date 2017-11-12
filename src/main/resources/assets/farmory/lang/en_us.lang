@@ -6,6 +6,12 @@ item.terilliumshovel.name=Terillium Shovel
 item.terilliumpickaxe.name=Terillium Pickaxe
 item.terilliumhoe.name=Terillium Hoe
 item.terilliumaxe.name=Terillium Axe
+item.terilliumleggings.name=Terillium Leggings
+item.terilliumboots.name=Terillium Boots
+item.terilliumhelmet.name=Terillium Helmet
+item.terilliumchestplate.name=Terillium ChestPlate
+item.longbow.name=Long Bow
+item.crossbow.name=Crossbow
 
 //Creative Tab
 itemGroup.tabArmory=Forge Your World: Tools And Armors

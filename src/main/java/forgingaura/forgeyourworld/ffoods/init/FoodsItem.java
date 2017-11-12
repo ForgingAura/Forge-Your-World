@@ -1,8 +1,8 @@
 package forgingaura.forgeyourworld.ffoods.init;
 
 import forgingaura.forgeyourworld.FFoods;
+import forgingaura.forgeyourworld.ffoods.FoodsUtils;
 import forgingaura.forgeyourworld.ffoods.item.*;
-import forgingaura.forgeyourworld.util.Utils;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -62,11 +62,11 @@ public class FoodsItem {
     public static void registerItem(Item item) {
         item.setCreativeTab(FFoods.FOODS_TAB); //Sets the creative tab
         GameRegistry.findRegistry(Item.class).register(item);
-        Utils.getLogger().info("Registered Item: " + item.getUnlocalizedName().substring(5));
+        FoodsUtils.getLogger().info("Registered Item: " + item.getUnlocalizedName().substring(5));
     }
 
     public static void registerRender(Item item) {
         ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(FFoods.MODID, item.getUnlocalizedName().substring(5)), "inventory"));
-        Utils.getLogger().info("Registered render for " + item.getUnlocalizedName().substring(5));
+        FoodsUtils.getLogger().info("Registered render for " + item.getUnlocalizedName().substring(5));
     }
 }

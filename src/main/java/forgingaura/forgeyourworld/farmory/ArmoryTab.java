@@ -1,9 +1,7 @@
 package forgingaura.forgeyourworld.farmory;
 
-import forgingaura.forgeyourworld.farmory.init.ArmoryWeaponToolItem;
-import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
+import forgingaura.forgeyourworld.farmory.init.ArmoryItem;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 /**
@@ -17,6 +15,6 @@ public class ArmoryTab extends CreativeTabs{
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(ArmoryWeaponToolItem.terilliumsword);
+        return new ItemStack(ArmoryItem.longbow);
     }
 }

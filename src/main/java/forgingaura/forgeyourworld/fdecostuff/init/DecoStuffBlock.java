@@ -1,8 +1,8 @@
 package forgingaura.forgeyourworld.fdecostuff.init;
 
 import forgingaura.forgeyourworld.FDecoStuff;
+import forgingaura.forgeyourworld.fdecostuff.DecoStuffUtils;
 import forgingaura.forgeyourworld.fdecostuff.block.*;
-import forgingaura.forgeyourworld.util.Utils;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
@@ -121,13 +121,13 @@ public class DecoStuffBlock {
         block.setCreativeTab(FDecoStuff.DECOSTUFF_TAB);
         GameRegistry.findRegistry(Block.class).register(block);
         GameRegistry.findRegistry(Item.class).register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
-        Utils.getLogger().info("Registered block: " + block.getUnlocalizedName().substring(5));
+        DecoStuffUtils.getLogger().info("Registered block: " + block.getUnlocalizedName().substring(5));
     }
 
     public static void registerRender(Block block) {
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(
                 new ResourceLocation(FDecoStuff.MODID, block.getUnlocalizedName().substring(5)), "inventory"));
-        Utils.getLogger().info("Registered render for " + block.getUnlocalizedName().substring(5));
+        DecoStuffUtils.getLogger().info("Registered render for " + block.getUnlocalizedName().substring(5));
     }
 
     private static void registerSlabHalf(Block slab, ItemSlab itemSlab){
@@ -140,6 +140,6 @@ public class DecoStuffBlock {
     public static void registerSlabDouble(Block block) {
         GameRegistry.findRegistry(Block.class).register(block);
         GameRegistry.findRegistry(Item.class).register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
-        Utils.getLogger().info("Registered block: " + block.getUnlocalizedName().substring(5));
+        DecoStuffUtils.getLogger().info("Registered block: " + block.getUnlocalizedName().substring(5));
     }
 }

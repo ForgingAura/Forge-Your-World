@@ -1,10 +1,10 @@
 package forgingaura.forgeyourworld.fresource.init;
 
 import forgingaura.forgeyourworld.FResource;
+import forgingaura.forgeyourworld.fresource.ResourceUtils;
 import forgingaura.forgeyourworld.fresource.item.BlazeCoal;
 import forgingaura.forgeyourworld.fresource.item.RawTerillium;
 import forgingaura.forgeyourworld.fresource.item.Terillium;
-import forgingaura.forgeyourworld.util.Utils;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -44,12 +44,12 @@ public class ResourceItem {
     public static void registerItem(Item item) {
         item.setCreativeTab(FResource.RESOURCE_TAB); //Sets the creative tab
         GameRegistry.findRegistry(Item.class).register(item);
-        Utils.getLogger().info("Registered Item: " + item.getUnlocalizedName().substring(5));
+        ResourceUtils.getLogger().info("Registered Item: " + item.getUnlocalizedName().substring(5));
     }
 
     public static void registerRender(Item item) {
         ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(FResource.MODID, item.getUnlocalizedName().substring(5)), "inventory"));
-        Utils.getLogger().info("Registered render for " + item.getUnlocalizedName().substring(5));
+        ResourceUtils.getLogger().info("Registered render for " + item.getUnlocalizedName().substring(5));
     }
 
 }

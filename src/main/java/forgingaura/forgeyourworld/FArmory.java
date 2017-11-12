@@ -1,7 +1,7 @@
 package forgingaura.forgeyourworld;
 
 import forgingaura.forgeyourworld.farmory.ArmoryTab;
-import forgingaura.forgeyourworld.farmory.init.ArmoryWeaponToolItem;
+import forgingaura.forgeyourworld.farmory.init.ArmoryItem;
 import forgingaura.forgeyourworld.farmory.proxy.ArmoryCommon;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -30,9 +30,9 @@ public class FArmory {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        ArmoryWeaponToolItem.init();
+        ArmoryItem.init();
         System.out.println("[Forge Your World Armory] Weapon Item Init Done");
-        ArmoryWeaponToolItem.register();
+        ArmoryItem.register();
         System.out.println("[Forge Your World Armory] Weapon Item Register Done");
         proxy.preInit();
         proxy.registerRenders();

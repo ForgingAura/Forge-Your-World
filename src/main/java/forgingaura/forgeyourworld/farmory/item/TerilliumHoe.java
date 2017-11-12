@@ -1,4 +1,4 @@
-package forgingaura.forgeyourworld.farmory.weapontoolitem;
+package forgingaura.forgeyourworld.farmory.item;
 
 import forgingaura.forgeyourworld.FArmory;
 import net.minecraft.item.ItemHoe;

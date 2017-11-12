@@ -1,6 +1,7 @@
 package forgingaura.forgeyourworld;
 
 import forgingaura.forgeyourworld.fresource.ResourceTab;
+import forgingaura.forgeyourworld.fresource.handler.FuelHandler;
 import forgingaura.forgeyourworld.fresource.handler.OreGenerationHandler;
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
 import forgingaura.forgeyourworld.fresource.init.ResourceItem;
@@ -51,6 +52,8 @@ public class FResource {
     public void init(FMLInitializationEvent event) {
         GameRegistry.registerWorldGenerator(new OreGenerationHandler(), 0);
         System.out.println("[Forge Your World Resource]Ore Generation Done");
+        GameRegistry.registerFuelHandler(new FuelHandler());
+        System.out.println("[Forge Your World Resource]Register Fuel Done");
         proxy.init();
         System.out.println("Initialization of Forge Your World Resouce Done");
     }
