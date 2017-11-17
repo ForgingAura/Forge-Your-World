@@ -18,7 +18,7 @@ public class FFactory {
 
     public static final String MODID = "ffactory";
     public static final String NAME = "Forge Your World Factory";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "@VERSION@";
     public static final String ACCEPTED_VERSION = "[1.12.2]";
     public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.ffactory.proxy.FactoryClient";
     public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.ffactory.proxy.FactoryServer";

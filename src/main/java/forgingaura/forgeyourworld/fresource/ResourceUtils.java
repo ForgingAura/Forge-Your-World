@@ -17,4 +17,18 @@ public class ResourceUtils {
         }
         return logger;
     }
+
+    public static int Fortuneitemhandler(int fortune, int drop) {
+        if(fortune > 0) {
+            drop = fortune * drop;
+        }
+        return drop;
+    }
+
+    public static int Fortunexphandler(int fortune, int xp) {
+        if(fortune > 0) {
+            xp = fortune + xp;
+        }
+        return xp;
+    }
 }

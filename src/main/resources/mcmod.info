@@ -1,8 +1,8 @@
 [
 {
   "modid": "fresource",
-  "name": "Forge Your World Resource",
-  "description": "I'm going mining some resouces.",
+  "name": "Forge Your World Resource / Core",
+  "description": "I'm going mining some resouces. / I'm work in my library",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

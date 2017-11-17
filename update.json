@@ -1,8 +1,0 @@
-{
-	"name": "Forge Your World",
-	"version": "1.0",
-	"changelog": [
-		"add all wool armor", "new organization in the source code incompatible with beta and alpha version"
-	],
-	"download": "https://minecraft.curseforge.com/projects/forge-your-world"
-}

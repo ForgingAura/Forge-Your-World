@@ -9,7 +9,7 @@ import net.minecraft.util.ResourceLocation;
 public class EnderiumOre extends Block {
 
 	public EnderiumOre(String unlocalizedName) {
-		super(Material.IRON);
+		super(Material.ROCK);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setRegistryName(new ResourceLocation(FResource.MODID, unlocalizedName));
 		this.setHardness(4.0F);
