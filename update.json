@@ -1,0 +1,25 @@
+{ 
+        "homepage": "www.yoursite.com/yourmod", 
+        "promos": { 
+                "1.12.2-latest": "1.1",
+                "1.12.2-recommended": "1.1",
+                "1.11.2-latest": "Beta-2.2",
+                "1.11.2-recommended": "Beta-2.2",
+                "1.10.2-latest": "PreAlpha0.0.13.1-Stable"
+        }, 
+        "1.12.2": {
+                "1.1": "add xp drop tiny Light level fortune item and xp drop on blaze coal ore and terillium ore and add config files for enable or not all mod par",
+                "1.0": "port mod to 1.12.2 and add wither crops seeds fragment and add Long Bow and Crossbow",
+                "Pre1.0-3": "port thing category is rename to decoration and other",
+                "Pre1.0-2": "add recipe for present conten and start port of thing category",
+                "Pre1.0-1": "port all food, resource and some armor/tools"
+        }, 
+        "1.11.2": {
+                "Beta-2.2": "add lime, pink and red wool armor",
+                "Beta-2.1": "add light blue and black wool armor",
+                "Beta-2.0": "Welcome to beta 2.0"
+        }, 
+        "1.10.2": {
+                "PreAlpha0.0.13.1": "add Granite Brick + Mossy + Cracked + Carved and Slab"
+        } 
+} 
