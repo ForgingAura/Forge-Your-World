@@ -1,13 +1,14 @@
 { 
         "homepage": "https://minecraft.curseforge.com/projects/forge-your-world", 
         "promos": { 
-                "1.12.2-latest": "1.1",
-                "1.12.2-recommended": "1.1",
+                "1.12.2-latest": "1.2",
+                "1.12.2-recommended": "1.2",
                 "1.11.2-latest": "Beta-2.2",
                 "1.11.2-recommended": "Beta-2.2",
                 "1.10.2-latest": "PreAlpha0.0.13.1-Stable"
         }, 
         "1.12.2": {
+        	    "1.2": "add player head drop on death & readd kitchen knife & add recipe and utility for kitchen knife and flour",
                 "1.1": "add xp drop tiny Light level fortune item and xp drop on blaze coal ore and terillium ore and add config files for enable or not all mod par",
                 "1.0": "port mod to 1.12.2 and add wither crops seeds fragment and add Long Bow and Crossbow",
                 "Pre1.0-3": "port thing category is rename to decoration and other",
