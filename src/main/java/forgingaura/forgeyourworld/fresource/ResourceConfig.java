@@ -6,13 +6,11 @@ import org.apache.logging.log4j.Level;
 
 public class ResourceConfig {
 
-    private static final String ENABLE_MOD = "enable_mod";
+    private static final String MOD_CONFIG = "mod_config";
 
-    public static boolean enable_armory = true;
-    public static boolean enable_decostuff = true;
-    public static boolean enable_factory = true;
-    public static boolean enable_foods = true;
-    public static boolean enable_magic = true;
+    public static boolean enable_player_skull = true;
+    public static boolean enable_new_cursor = true;
+    public static int cursor_type = 1;
 
     public static void readConfig() {
         Configuration cfg = FResource.config;
@@ -29,11 +27,9 @@ public class ResourceConfig {
     }
 
     private static void initEnableConfig(Configuration cfg) {
-        cfg.addCustomCategoryComment(ENABLE_MOD, "Enable Mod configuration(Dont use is not work, use .yml files for this)");
-        enable_armory = cfg.getBoolean("farmory", ENABLE_MOD, enable_armory, "Set to false if you want to disable Forge your World Armory");
-        enable_decostuff = cfg.getBoolean("fdecostuff", ENABLE_MOD, enable_decostuff, "Set to false if you want to disable Forge your World Decoration And Stuff");
-        enable_factory = cfg.getBoolean("factory", ENABLE_MOD, enable_factory, "Set to false if you want to disable Forge your World Factory");
-        enable_foods = cfg.getBoolean("foods", ENABLE_MOD, enable_foods, "Set to false if you want to disable Forge your World Foods");
-        enable_magic= cfg.getBoolean("fmagic", ENABLE_MOD, enable_magic, "Set to false if you want to disable Forge your World Mystical");
+        cfg.addCustomCategoryComment(MOD_CONFIG, "Configuration Files for Forge Your World Core");
+        enable_player_skull = cfg.getBoolean("player_skull", MOD_CONFIG, enable_player_skull, "Set to false if you want to disable Player head drop on death");
+        enable_new_cursor = cfg.getBoolean("cursor", MOD_CONFIG, enable_new_cursor, "Set to false if you want to disable the new cursor(is client sided)");
+        cursor_type = cfg.getInt("cursor_type", MOD_CONFIG, cursor_type, 1, 4, "1 = diamond sword, 2 = stick, 3 = arrow, 4 = spectral arrow");
     }
 }

@@ -13,7 +13,7 @@ public class FoodsRecipe {
 
     public static void register() {
 
-        GameRegistry.addSmelting(Items.BREAD, new ItemStack(FoodsItem.toast, 4), 0.1F);
+        GameRegistry.addSmelting(FoodsItem.flour, new ItemStack(Items.BREAD, 1), 0.1F);
 
     }
 }

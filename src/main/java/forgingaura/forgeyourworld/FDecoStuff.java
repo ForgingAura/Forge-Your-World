@@ -7,6 +7,7 @@ import forgingaura.forgeyourworld.fdecostuff.init.DecoStuffBlock;
 import forgingaura.forgeyourworld.fdecostuff.proxy.DecoStuffCommon;
 import forgingaura.forgeyourworld.fresource.handler.OreGenerationHandler;
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
+import forgingaura.forgeyourworld.util.ModVersion;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
@@ -21,12 +22,11 @@ import java.io.File;
 /**
  * Created by AlasDiablo on 11/11/2017.
  */
-@Mod(modid = FDecoStuff.MODID, name = FDecoStuff.NAME, version = FDecoStuff.VERSION, acceptedMinecraftVersions = FDecoStuff.ACCEPTED_VERSION)
+@Mod(modid = FDecoStuff.MODID, name = FDecoStuff.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = FDecoStuff.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
 public class FDecoStuff {
 
     public static final String MODID = "fdecostuff";
     public static final String NAME = "Forge Your World Decoration And Stuff";
-    public static final String VERSION = "@VERSION@";
     public static final String ACCEPTED_VERSION = "[1.12.2]";
     public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.fdecostuff.proxy.DecoStuffClient";
     public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.fdecostuff.proxy.DecoStuffServer";

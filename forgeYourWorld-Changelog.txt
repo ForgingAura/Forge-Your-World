@@ -1,0 +1,114 @@
+-1.3
+Change Cursor in-game (AlasDiablo)
+Add Blowgun (AlasDiablo)
+------------------------------------------------------------------
+-1.2
+add player head drop on death (AlasDiablo)
+readd kitchen knife (AlasDiablo)
+add recipe and utility for kitchen knife and flour (AlasDiablo)
+------------------------------------------------------------------
+-1.1
+add xp drop on blaze coal ore and terillium ore (AlasDiablo)
+add a tiny Light level on blaze coal ore and terillium ore (AlasDiablo)
+add fortune item and xp drop on blaze coal ore and terillium ore (AlasDiablo)
+add config files for enable or not all mod part (AlasDiablo)
+------------------------------------------------------------------
+-1.0
+port all mod to 1.12.2 (AlasDiablo)
+remove wool armor because is required to remake all texture (AlasDiablo)
+add wither crops, seeds and fragment, is for craft wither skull (AlasDiablo)
+add Long Bow and Crossbow (AlasDiablo, idea propose by TheKilleur2001)
+add all craft recipes (AlasDiablo)
+------------------------------------------------------------------
+-Pre1.0-3
+port thing category is rename to decoration and other (alasdiablo)
+------------------------------------------------------------------
+-Pre1.0-2
+add recipe for present conten (alasdiablo)
+start port of thing category(java asset) (alasdiablo)
+------------------------------------------------------------------
+-Pre1.0-1
+port all food, resource and some armor/tools(craft is not work) (alasdiablo)
+------------------------------------------------------------------
+-Beta-2.2
+add lime, pink and red wool armor (alasdiablo)
+------------------------------------------------------------------
+-Beta-2.1
+add light blue and black wool armor (alasdiablo)
+------------------------------------------------------------------
+-Beta-2.0
+Welcome to beta 2.0
+The New Start
+------------------------------------------------------------------
+-Beta-1.2
+change Some code for dependencies (AlasDiablo)
+------------------------------------------------------------------
+-Beta-1.1
+change CJCore by our core mod "AuraCore" (AlasDiablo)
+------------------------------------------------------------------
+-Beta-1.0
+add Mossy + Cracked + Carved and Slab for End Stone Brick (alasdiablo)
+work on a new description for curse page (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.13.2-stable
+fix 1.11.2 no start (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.13.1-stable
+fix craft (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.13-stable
+add Granite Brick + Mossy + Cracked + Carved and Slab (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.12-stable
+add Diorite Brick + Mossy + Cracked + Carved and Slab (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.11-stable
+add Andesite Brick + Mossy + Cracked + Carved and Slab (alasdiablo)
+add EnderiumOre (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.10-stable
+Complete rewrite (alasdiablo)
+add kitchen knife (alasdiablo)
+fix server crash on player connection (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.9-stable
+add Update Checker (alasdiablo)
+add Core (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.8-stable
+add Blaze Coal (alasdiablo)
+add Blaze Coal Ore (alasdiablo)
+add Blaze Coal Block (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.7.1
+add terillium armor (code by alasdiablo, texture by rom279)
+add terillium tool (code by alasdiablo, texture by rom279)
+add terillium (alasdiablo)
+add creative tab for Tool and Armor (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.6
+add Terillium Ore WIP (code alasdiablo, texture rom279)
+add Raw Terillium (alasdiablo)
+add Resource Creative Tab (alasdiablo)
+disable Useless Things Creative Tab (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.5
+add apple jam (code by alasdiablo, texture by alasdiablo)
+add toast with apple jam (code by alasdiablo, texture by alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.4-WIP-stable
+add logo (alasdiablo)
+add creative tab for Useless Things (alasdiablo)
+start code of block (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.3
+add Creative Tab For Food (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.2
+add toast craft (alasdiablo)
+add flour craft (alasdiablo)
+add flour utility (alasdiablo)
+------------------------------------------------------------------
+-PreAlpha0.0.1
+add toast (alasdiablo)
+add flour (alasdiablo)

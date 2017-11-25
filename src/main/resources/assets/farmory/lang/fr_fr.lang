@@ -12,6 +12,7 @@ item.terilliumhelmet.name=Casque en Terillium
 item.terilliumchestplate.name=Cuirasse en Terillium
 item.longbow.name=Arc Long
 item.crossbow.name=Arbalete
+item.blowgun.name=Sarbacane
 
 //Creative Tab
 itemGroup.tabArmory=Forge Your World: Outils et Armures

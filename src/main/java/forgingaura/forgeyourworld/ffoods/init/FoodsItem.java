@@ -22,6 +22,7 @@ public class FoodsItem {
     public static Item chocolatecerealsbowl;
     public static Item flour;
     public static Item toast;
+    public static Item kitchenknife;
 
 
     public static void init() {
@@ -33,6 +34,7 @@ public class FoodsItem {
         chocolatecerealsbowl = new ChocolateCerealsBowl("chocolatecerealsbowl");
         flour = new Flour("flour");
         toast = new Toast("toast");
+        kitchenknife = new KitchenKnife(Item.ToolMaterial.STONE, "kitchenknife");
 
     }
 
@@ -45,6 +47,7 @@ public class FoodsItem {
         registerItem(chocolatecerealsbowl);
         registerItem(flour);
         registerItem(toast);
+        registerItem(kitchenknife);
 
     }
 
@@ -57,6 +60,7 @@ public class FoodsItem {
         registerRender(chocolatecerealsbowl);
         registerRender(flour);
         registerRender(toast);
+        registerRender(kitchenknife);
     }
 
     public static void registerItem(Item item) {

@@ -3,11 +3,13 @@ package forgingaura.forgeyourworld.farmory.init;
 import forgingaura.forgeyourworld.FArmory;
 import forgingaura.forgeyourworld.farmory.ArmoryUtils;
 import forgingaura.forgeyourworld.farmory.item.*;
+import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
@@ -29,12 +31,13 @@ public class ArmoryItem {
     public static Item terilliumsword;
     public static Item longbow;
     public static Item crossbow;
+    public static Item blowgun;
 
     public static void init() {
-        terilliumhelmet = new ItemArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD).setUnlocalizedName("terilliumhelmet").setRegistryName(new ResourceLocation(FArmory.MODID, "terilliumhelmet"));
-        terilliumchestplate = new ItemArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST).setUnlocalizedName("terilliumchestplate").setRegistryName(new ResourceLocation(FArmory.MODID, "terilliumchestplate"));
-        terilliumleggings = new ItemArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS).setUnlocalizedName("terilliumleggings").setRegistryName(new ResourceLocation(FArmory.MODID, "terilliumleggings"));
-        terilliumboots = new ItemArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET).setUnlocalizedName("terilliumboots").setRegistryName(new ResourceLocation(FArmory.MODID, "terilliumboots"));
+        terilliumhelmet = new TerilliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD, "terilliumhelmet");
+        terilliumchestplate = new TerilliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST, "terilliumchestplate");
+        terilliumleggings = new TerilliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS, "terilliumleggings");
+        terilliumboots = new TerilliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET, "terilliumboots");
         terilliumhoe = new TerilliumHoe("terilliumhoe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         terilliumaxe =new TerilliumAxe("terilliumaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         terilliumpickaxe = new TerilliumPickaxe("terilliumpickaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
@@ -42,6 +45,7 @@ public class ArmoryItem {
         terilliumsword = new TerilliumSword("terilliumsword", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         longbow = new LongBow("longbow");
         crossbow = new CrossBow("crossbow");
+        blowgun = new BlowGun("blowgun");
 
     }
 
@@ -57,6 +61,7 @@ public class ArmoryItem {
         registerItem(terilliumsword);
         registerItem(longbow);
         registerItem(crossbow);
+        registerItem(blowgun);
 
     }
 
@@ -72,16 +77,17 @@ public class ArmoryItem {
         registerRender(terilliumsword);
         registerRender(longbow);
         registerRender(crossbow);
+        registerRender(blowgun);
 
     }
 
     public static class ArmoryArmorMaterials {
-        public static final ItemArmor.ArmorMaterial terilliumMat = EnumHelper.addArmorMaterial("terilliumMat", FArmory.MODID + ":terilliumarmor", 25, new int[]{2, 5, 7 ,2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
+        public static final ItemArmor.ArmorMaterial terilliumMat = EnumHelper.addArmorMaterial("terilliumMat", FArmory.MODID + ":terilliumarmor", 25, new int[]{2, 5, 7 ,2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F).setRepairItem(new ItemStack(ResourceItem.terillium));
 
     }
 
     public static class ArmoryToolMaterials {
-        public static final Item.ToolMaterial terilliumMat = EnumHelper.addToolMaterial("terilliumMat", 3, 768, 8.0F, 2.0F, 25);
+        public static final Item.ToolMaterial terilliumMat = EnumHelper.addToolMaterial("terilliumMat", 3, 768, 8.0F, 2.0F, 25).setRepairItem(new ItemStack(ResourceItem.terillium));
 
     }
 

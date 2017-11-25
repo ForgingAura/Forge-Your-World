@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAB",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "block": "minecraft:cobblestone"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ffoods:kitchenknife"
+  }
+}

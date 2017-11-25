@@ -5,8 +5,11 @@ import java.util.Set;
 import com.google.common.collect.Sets;
 
 import forgingaura.forgeyourworld.FArmory;
+import forgingaura.forgeyourworld.farmory.init.ArmoryItem;
+import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
 import net.minecraft.util.ResourceLocation;
 
@@ -21,5 +24,6 @@ public class TerilliumAxe extends ItemTool {
         super(material, EFFECTIVE_ON);
         this.setUnlocalizedName(unlocalizedName);
         this.setRegistryName(new ResourceLocation(FArmory.MODID, unlocalizedName));
+        this.canRepair = true;
     }
 }

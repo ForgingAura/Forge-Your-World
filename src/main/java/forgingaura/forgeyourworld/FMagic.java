@@ -6,6 +6,7 @@ import forgingaura.forgeyourworld.fmagic.MagicTab;
 import forgingaura.forgeyourworld.fmagic.init.MagicBlock;
 import forgingaura.forgeyourworld.fmagic.init.MagicItem;
 import forgingaura.forgeyourworld.fmagic.proxy.MagicCommon;
+import forgingaura.forgeyourworld.util.ModVersion;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
@@ -19,12 +20,11 @@ import java.io.File;
 /**
  * Created by AlasDiablo on 11/11/2017.
  */
-@Mod(modid = FMagic.MODID, name = FMagic.NAME, version = FMagic.VERSION, acceptedMinecraftVersions = FMagic.ACCEPTED_VERSION)
+@Mod(modid = FMagic.MODID, name = FMagic.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = FMagic.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
 public class FMagic {
 
     public static final String MODID = "fmagic";
     public static final String NAME = "Forge Your World Mystical";
-    public static final String VERSION = "@VERSION@";
     public static final String ACCEPTED_VERSION = "[1.12.2]";
     public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.fmagic.proxy.MagicClient";
     public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.fmagic.proxy.MagicServer";
