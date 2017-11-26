@@ -21,12 +21,11 @@ import java.io.File;
 /**
  * Created by AlasDiablo on 10/11/2017.
  */
-@Mod(modid = FFoods.MODID, name = FFoods.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = FFoods.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
+@Mod(modid = FFoods.MODID, name = FFoods.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
 public class FFoods {
 
     public static final String MODID = "ffoods";
     public static final String NAME = "Forge Your World Foods";
-    public static final String ACCEPTED_VERSION = "[1.12.2]";
     public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.ffoods.proxy.FoodsClient";
     public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.ffoods.proxy.FoodsServer";
 
