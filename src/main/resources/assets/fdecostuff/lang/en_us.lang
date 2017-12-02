@@ -26,4 +26,5 @@ tile.endstone_slab_half.name=End Stone Brick Slab
 tile.endstone_slab_double.name=End Stone Brick Slab
 
 //Creative Tab
-itemGroup.tabDecoStuff=Forge Your World: Decoration And Other
+itemGroup.tabDeco=Forge Your World: Decoration And Other
+itemGroup.tabStuff=§kForge Your World: Stuff And Other

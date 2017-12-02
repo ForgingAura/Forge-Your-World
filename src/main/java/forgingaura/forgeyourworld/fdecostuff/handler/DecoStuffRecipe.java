@@ -18,6 +18,5 @@ public class DecoStuffRecipe {
         GameRegistry.addSmelting(DecoStuffBlock.andesitebrick, new ItemStack(DecoStuffBlock.andesitebrickcracked, 1), 0.1F);
         GameRegistry.addSmelting(DecoStuffBlock.dioritebrick, new ItemStack(DecoStuffBlock.dioritebrickcracked, 1), 0.1F);
         GameRegistry.addSmelting(DecoStuffBlock.granitebrick, new ItemStack(DecoStuffBlock.granitebrickcracked, 1), 0.1F);
-
     }
 }

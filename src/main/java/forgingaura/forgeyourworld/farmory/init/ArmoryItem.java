@@ -32,20 +32,22 @@ public class ArmoryItem {
     public static Item longbow;
     public static Item crossbow;
     public static Item blowgun;
+    public static Item enderiumsword;
 
     public static void init() {
-        terilliumhelmet = new TerilliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD, "terilliumhelmet");
-        terilliumchestplate = new TerilliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST, "terilliumchestplate");
-        terilliumleggings = new TerilliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS, "terilliumleggings");
-        terilliumboots = new TerilliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET, "terilliumboots");
-        terilliumhoe = new TerilliumHoe("terilliumhoe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
-        terilliumaxe =new TerilliumAxe("terilliumaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
-        terilliumpickaxe = new TerilliumPickaxe("terilliumpickaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
-        terilliumshovel = new TerilliumShovel("terilliumshovel", ArmoryItem.ArmoryToolMaterials.terilliumMat);
-        terilliumsword = new TerilliumSword("terilliumsword", ArmoryItem.ArmoryToolMaterials.terilliumMat);
+        terilliumhelmet = new BasicArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD, "terilliumhelmet");
+        terilliumchestplate = new BasicArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST, "terilliumchestplate");
+        terilliumleggings = new BasicArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS, "terilliumleggings");
+        terilliumboots = new BasicArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET, "terilliumboots");
+        terilliumhoe = new BasicHoe("terilliumhoe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
+        terilliumaxe =new BasicAxe("terilliumaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
+        terilliumpickaxe = new BasicPickaxe("terilliumpickaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
+        terilliumshovel = new BasicShovel("terilliumshovel", ArmoryItem.ArmoryToolMaterials.terilliumMat);
+        terilliumsword = new BasicSword("terilliumsword", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         longbow = new LongBow("longbow");
         crossbow = new CrossBow("crossbow");
         blowgun = new BlowGun("blowgun");
+        enderiumsword = new BasicSword("enderiumsword", ArmoryToolMaterials.enderiumMat);
 
     }
 
@@ -62,6 +64,7 @@ public class ArmoryItem {
         registerItem(longbow);
         registerItem(crossbow);
         registerItem(blowgun);
+        registerItem(enderiumsword);
 
     }
 
@@ -78,6 +81,7 @@ public class ArmoryItem {
         registerRender(longbow);
         registerRender(crossbow);
         registerRender(blowgun);
+        registerRender(enderiumsword);
 
     }
 
@@ -88,6 +92,7 @@ public class ArmoryItem {
 
     public static class ArmoryToolMaterials {
         public static final Item.ToolMaterial terilliumMat = EnumHelper.addToolMaterial("terilliumMat", 3, 768, 8.0F, 2.0F, 25).setRepairItem(new ItemStack(ResourceItem.terillium));
+        public static final Item.ToolMaterial enderiumMat = EnumHelper.addToolMaterial("enderiumMat", 9, 2304, 24.0F, 6.0F, 75).setRepairItem(new ItemStack(ResourceItem.enderiumingot));
 
     }
 

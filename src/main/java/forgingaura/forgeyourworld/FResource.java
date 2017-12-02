@@ -4,7 +4,9 @@ import forgingaura.forgeyourworld.fresource.ResourceConfig;
 import forgingaura.forgeyourworld.fresource.ResourceTab;
 import forgingaura.forgeyourworld.fresource.event.PlayerSkull;
 import forgingaura.forgeyourworld.fresource.handler.FuelHandler;
+import forgingaura.forgeyourworld.fresource.handler.OreDictionaryHandler;
 import forgingaura.forgeyourworld.fresource.handler.OreGenerationHandler;
+import forgingaura.forgeyourworld.fresource.handler.ResourceRecipe;
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
 import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 import forgingaura.forgeyourworld.fresource.proxy.ResourceCommon;
@@ -68,6 +70,8 @@ public class FResource {
         System.out.println("[Forge Your World Resource]Ore Generation Done");
         GameRegistry.registerFuelHandler(new FuelHandler());
         System.out.println("[Forge Your World Resource]Register Fuel Done");
+        ResourceRecipe.register();
+        OreDictionaryHandler.registerOreDictionary();
         proxy.init();
         System.out.println("Initialization of Forge Your World Resource / Core Done");
     }

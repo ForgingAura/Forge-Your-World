@@ -1,11 +1,11 @@
 //fr lang
 
 //item
-item.terilliumsword.name=Terillium Sword
+item.terilliumsword.name=Epée en Terillium
 item.terilliumshovel.name=Terillium Shovel
 item.terilliumpickaxe.name=Terillium Pickaxe
 item.terilliumhoe.name=Terillium Hoe
-item.terilliumaxe.name=Terillium Axe
+item.terilliumaxe.name=Terillium Hache
 item.terilliumleggings.name=Jambières en Terillium
 item.terilliumboots.name=Bottes en Terillium
 item.terilliumhelmet.name=Casque en Terillium
@@ -13,6 +13,7 @@ item.terilliumchestplate.name=Cuirasse en Terillium
 item.longbow.name=Arc Long
 item.crossbow.name=Arbalete
 item.blowgun.name=Sarbacane
+item.enderiumsword.name=§dEpée en Enderium
 
 //Creative Tab
 itemGroup.tabArmory=Forge Your World: Outils et Armures

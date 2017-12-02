@@ -1,12 +1,12 @@
 package forgingaura.forgeyourworld;
 
-import forgingaura.forgeyourworld.farmory.ArmoryConfig;
 import forgingaura.forgeyourworld.fdecostuff.DecoStuffConfig;
-import forgingaura.forgeyourworld.fdecostuff.DecoStuffTab;
+import forgingaura.forgeyourworld.fdecostuff.DecoTab;
+import forgingaura.forgeyourworld.fdecostuff.StuffTab;
+import forgingaura.forgeyourworld.fdecostuff.handler.DecoStuffRecipe;
 import forgingaura.forgeyourworld.fdecostuff.init.DecoStuffBlock;
+import forgingaura.forgeyourworld.fdecostuff.init.DecoStuffItem;
 import forgingaura.forgeyourworld.fdecostuff.proxy.DecoStuffCommon;
-import forgingaura.forgeyourworld.fresource.handler.OreGenerationHandler;
-import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
 import forgingaura.forgeyourworld.util.ModVersion;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.config.Configuration;
@@ -15,7 +15,6 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.io.File;
 
@@ -35,7 +34,8 @@ public class FDecoStuff {
     @SidedProxy(clientSide = FDecoStuff.CLIENT_PROXY_CLASSE, serverSide = FDecoStuff.SERVER_PROXY_CLASSE)
     public static DecoStuffCommon proxy;
 
-    public static final CreativeTabs DECOSTUFF_TAB = new DecoStuffTab();
+    public static final CreativeTabs DECO_TAB = new DecoTab();
+    public static final CreativeTabs STUFF_TAB = new StuffTab();
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
@@ -44,9 +44,11 @@ public class FDecoStuff {
         DecoStuffConfig.readConfig();
         if(DecoStuffConfig.enable_decostuff == true) {
             DecoStuffBlock.init();
-            System.out.println("[Forge Your World Decoration And Stuff] Block Init Done");
+            //DecoStuffItem.init();
+            System.out.println("[Forge Your World Decoration And Stuff] Block/Item Init Done");
             DecoStuffBlock.register();
-            System.out.println("[Forge Your World Decoration And Stuff] Block Register Done");
+            //DecoStuffItem.register();
+            System.out.println("[Forge Your World Decoration And Stuff] Block/Item Register Done");
             proxy.preInit();
             proxy.registerRenders();
             System.out.println("Pre Initialization of Forge Your World Decoration And Stuff Done");
@@ -57,6 +59,7 @@ public class FDecoStuff {
     public void init(FMLInitializationEvent event) {
         if(DecoStuffConfig.enable_decostuff == true) {
             proxy.init();
+            DecoStuffRecipe.register();
             System.out.println("Initialization of Forge Your World Decoration And Stuff Done");
         }
     }

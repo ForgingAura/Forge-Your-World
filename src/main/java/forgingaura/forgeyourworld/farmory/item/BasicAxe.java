@@ -16,11 +16,11 @@ import net.minecraft.util.ResourceLocation;
 /**
  * Created by AlasDiablo on 30/10/2017.
  */
-public class TerilliumAxe extends ItemTool {
+public class BasicAxe extends ItemTool {
 
     private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(new Block[] {Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN, Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE});
 
-    public TerilliumAxe(String unlocalizedName,ToolMaterial material) {
+    public BasicAxe(String unlocalizedName, ToolMaterial material) {
         super(material, EFFECTIVE_ON);
         this.setUnlocalizedName(unlocalizedName);
         this.setRegistryName(new ResourceLocation(FArmory.MODID, unlocalizedName));

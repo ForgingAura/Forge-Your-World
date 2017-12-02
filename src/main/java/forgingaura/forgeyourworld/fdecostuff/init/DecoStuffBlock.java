@@ -118,7 +118,7 @@ public class DecoStuffBlock {
     }
 
     public static void registerBlock(Block block) {
-        block.setCreativeTab(FDecoStuff.DECOSTUFF_TAB);
+        block.setCreativeTab(FDecoStuff.DECO_TAB);
         GameRegistry.findRegistry(Block.class).register(block);
         GameRegistry.findRegistry(Item.class).register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
         DecoStuffUtils.getLogger().info("Registered block: " + block.getUnlocalizedName().substring(5));
@@ -131,7 +131,7 @@ public class DecoStuffBlock {
     }
 
     private static void registerSlabHalf(Block slab, ItemSlab itemSlab){
-        slab.setCreativeTab(FDecoStuff.DECOSTUFF_TAB);
+        slab.setCreativeTab(FDecoStuff.DECO_TAB);
         GameRegistry.findRegistry(Block.class).register(slab);
         itemSlab.setRegistryName(slab.getRegistryName());
         GameRegistry.findRegistry(Item.class).register(itemSlab);

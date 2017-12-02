@@ -2,6 +2,7 @@ package forgingaura.forgeyourworld.fresource.init;
 
 import forgingaura.forgeyourworld.FResource;
 import forgingaura.forgeyourworld.fresource.ResourceUtils;
+import forgingaura.forgeyourworld.fresource.item.BasicIngot;
 import forgingaura.forgeyourworld.fresource.item.BlazeCoal;
 import forgingaura.forgeyourworld.fresource.item.RawTerillium;
 import forgingaura.forgeyourworld.fresource.item.Terillium;
@@ -19,11 +20,13 @@ public class ResourceItem {
     public static Item blazecoal;
     public static Item rawterillium;
     public static Item terillium;
+    public static Item enderiumingot;
 
     public static void init() {
         blazecoal = new BlazeCoal("blazecoal");
         rawterillium = new RawTerillium("rawterillium");
         terillium = new Terillium("terillium");
+        enderiumingot = new BasicIngot("enderiumingot");
 
     }
 
@@ -31,6 +34,7 @@ public class ResourceItem {
         registerItem(blazecoal);
         registerItem(rawterillium);
         registerItem(terillium);
+        registerItem(enderiumingot);
 
     }
 
@@ -38,6 +42,7 @@ public class ResourceItem {
         registerRender(blazecoal);
         registerRender(rawterillium);
         registerRender(terillium);
+        registerRender(enderiumingot);
 
     }
 

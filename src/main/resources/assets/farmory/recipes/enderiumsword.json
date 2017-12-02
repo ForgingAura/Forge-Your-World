@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CA",
+    "CA",
+    " B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "fresource:enderiumingot"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "farmory:enderiumsword"
+  }
+}

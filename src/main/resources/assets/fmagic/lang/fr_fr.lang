@@ -2,7 +2,7 @@
 
 //items
 item.wseed.name=Graine Wither
-item.wfragment.name=Fragment de Wither
+item.wfragment.name=§bFragment de Wither
 
 //Creative Tab
 itemGroup.tabMagic=Forge Your World: Mystique

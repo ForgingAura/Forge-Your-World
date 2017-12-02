@@ -2,7 +2,7 @@
 
 //Items
 item.rawterillium.name=Terillium Brut
-item.terillium.name=Terillium
+item.terillium.name=§aTerillium
 item.blazecoal.name=Charbon de Blaze
 
 //Blocks
@@ -10,6 +10,7 @@ tile.terilliumore.name=Minerai de Terillium
 tile.blazecoalblock.name=Bloc de Charbon de Blaze
 tile.blazecoalore.name=Minerai de Charbon de Blaze
 tile.enderiumore.name=Minerai d'Enderium
+item.enderiumingot.name=§dLingot Enderium
 
 //Creative Tab
 itemGroup.tabResource=Forge Your World: Resource

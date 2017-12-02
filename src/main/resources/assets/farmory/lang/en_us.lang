@@ -13,6 +13,7 @@ item.terilliumchestplate.name=Terillium ChestPlate
 item.longbow.name=Long Bow
 item.crossbow.name=Crossbow
 item.blowgun.name=Blowgun
+item.enderiumsword.name=§dEnderium Sword
 
 //Creative Tab
 itemGroup.tabArmory=Forge Your World: Tools And Armors

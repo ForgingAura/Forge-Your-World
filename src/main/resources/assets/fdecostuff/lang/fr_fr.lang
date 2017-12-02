@@ -26,4 +26,5 @@ tile.endstone_slab_half.name=Dalle en Brique de l'End
 tile.endstone_slab_double.name=Dalle en Brique de l'End
 
 //Creative Tab
-itemGroup.tabDecoStuff=Forge Your World: Décoration et Autre
+itemGroup.tabDeco=Forge Your World: Décoration et Autre
+itemGroup.tabStuff=§kForge Your World: Des Truc et Autre

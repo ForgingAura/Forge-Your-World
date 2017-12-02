@@ -2,20 +2,18 @@ package forgingaura.forgeyourworld.fdecostuff;
 
 import forgingaura.forgeyourworld.fdecostuff.init.DecoStuffBlock;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-/**
- * Created by AlasDiablo on 11/11/2017.
- */
-public class DecoStuffTab extends CreativeTabs{
+public class StuffTab extends CreativeTabs {
 
-    public DecoStuffTab() {
-        super("tabDecoStuff");
+    public StuffTab() {
+        super("tabStuff");
     }
 
     @Override
     public ItemStack getTabIconItem() {
-        return new ItemStack(Item.getItemFromBlock(DecoStuffBlock.endstone_slab_half));
+        return new ItemStack(Item.getItemFromBlock(Blocks.DIRT));
     }
 }

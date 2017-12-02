@@ -1,6 +1,7 @@
 package forgingaura.forgeyourworld.fresource.proxy;
 
 import forgingaura.forgeyourworld.fresource.ResourceConfig;
+import forgingaura.forgeyourworld.fresource.handler.ResourceRecipe;
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
 import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 
