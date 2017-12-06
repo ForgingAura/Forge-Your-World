@@ -1,6 +1,15 @@
+-1.5
+fix Light level on blaze coal ore and terillium ore (AlasDiablo)
+add Light level on enderium (AlasDiablo)
+start change item id to ore dictionary id in recipe (AlasDiablo)
+add terillium block (alasdiablo)
+add red diamond item and ore (alasdiablo)
+add adding a temporary utility on red diamond is same ore dictionary name (AlasDiablo)
+add potion effect on hit a mob with terillium or enderium sword (alasdiablo)
+------------------------------------------------------------------
 -1.4
-add enderium ingot
-add enderium sword
+add enderium ingot (alasdiablo)
+add enderium sword (alasdiablo, texture find on minecraft.novaskin.me)
 add color on name for some item
 ------------------------------------------------------------------
 -1.3.1

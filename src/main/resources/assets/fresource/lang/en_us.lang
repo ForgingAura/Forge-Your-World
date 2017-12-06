@@ -4,13 +4,17 @@
 item.rawterillium.name=Raw Terillium
 item.terillium.name=§aTerillium
 item.blazecoal.name=Blaze Coal
+item.reddiamond.name=§4Red Diamond
+item.enderiumingot.name=§dEnderium Ingot
 
 //Blocks
 tile.terilliumore.name=Terillium Ore
 tile.blazecoalblock.name=Blaze Coal Block
 tile.blazecoalore.name=Blaze Coal Ore
 tile.enderiumore.name=Enderium Ore
-item.enderiumingot.name=§dEnderium Ingot
+tile.terilliumblock.name=Terillium Block
+tile.reddiamondore.name=Red Diamond Ore
+
 
 //Creative Tab
 itemGroup.tabResource=Forge Your World: Resource

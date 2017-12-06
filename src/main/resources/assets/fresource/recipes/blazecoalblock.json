@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
     "AAA",
     "AAA",
@@ -7,11 +7,11 @@
   ],
   "key": {
     "A": {
-      "item": "fresource:blazecoal"
+      "type": "forge:ore_dict",
+      "ore": "blazecoal"
     }
   },
   "result": {
-    "type": "minecraft:block",
     "item": "fresource:blazecoalblock"
   }
 }

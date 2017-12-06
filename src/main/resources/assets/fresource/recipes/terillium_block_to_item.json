@@ -3,11 +3,11 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "blockBlazecoal"
+      "ore": "blockTerillium"
     }
   ],
   "result": {
-    "item": "fresource:blazecoal",
-    "count": 9
+    "item": "fresource:terillium",
+    "count": 8
   }
 }

@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
     " A ",
     "CBC",
@@ -7,17 +7,19 @@
   ],
   "key": {
     "B": {
-      "item": "fresource:rawterillium"
+      "type": "forge:ore_dict",
+      "ore": "gemRawterillium"
     },
     "A": {
-      "item": "minecraft:glowstone_dust"
+      "type": "forge:ore_dict",
+      "ore": "dustGlowstone"
     },
     "C": {
-      "item": "minecraft:redstone"
+      "type": "forge:ore_dict",
+      "ore": "dustRedstone"
     }
   },
   "result": {
-    "type": "minecraft:item",
     "item": "fresource:terillium"
   }
 }

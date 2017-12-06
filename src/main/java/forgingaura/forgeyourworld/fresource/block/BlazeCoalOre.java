@@ -22,6 +22,7 @@ public class BlazeCoalOre extends Block {
 		this.setRegistryName(new ResourceLocation(FResource.MODID, unlocalizedName));
 		this.setHardness(2.0F);
 		this.setHarvestLevel("pickaxe", 2);
+		this.setLightLevel(0.4F);
 	}
 	@Override
 	public int quantityDropped(IBlockState state, int fortune, Random random) {

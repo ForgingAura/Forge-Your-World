@@ -35,7 +35,7 @@ public class FDecoStuff {
     public static DecoStuffCommon proxy;
 
     public static final CreativeTabs DECO_TAB = new DecoTab();
-    public static final CreativeTabs STUFF_TAB = new StuffTab();
+    //public static final CreativeTabs STUFF_TAB = new StuffTab();
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

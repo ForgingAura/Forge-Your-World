@@ -1,21 +1,17 @@
 {
   "type": "forge:ore_shaped",
   "pattern": [
-    "B",
-    "A",
-    "A"
+    "AAA",
+    "A A",
+    "AAA"
   ],
   "key": {
-    "B": {
-      "type": "forge:ore_dict",
-      "ore": "stickWood"
-    },
     "A": {
       "type": "forge:ore_dict",
       "ore": "gemTerillium"
     }
   },
   "result": {
-    "item": "farmory:terilliumsword"
+    "item": "fresource:terilliumblock"
   }
 }

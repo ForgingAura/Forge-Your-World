@@ -1,20 +1,21 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
-    "A",
     "B",
-    "B"
+    "B",
+    "A"
   ],
   "key": {
     "B": {
-      "item": "minecraft:stick"
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
     },
     "A": {
-      "item": "fresource:terillium"
+      "type": "forge:ore_dict",
+      "ore": "gemTerillium"
     }
   },
   "result": {
-    "type": "minecraft:item",
     "item": "farmory:terilliumshovel"
   }
 }

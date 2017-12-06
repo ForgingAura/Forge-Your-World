@@ -49,6 +49,7 @@ public class OreGenerationHandler implements IWorldGenerator{
 
     private void generateNether(World world, Random random, int x, int z) {
         generateOre(ResourceBlock.blazecoalore.getDefaultState(), world, random, x, z, 4, 127, 16, 64, BlockMatcher.forBlock(Blocks.NETHERRACK));
+        generateOre(ResourceBlock.reddiamondore.getDefaultState(), world, random, x, z, 4, 127, 4, 16, BlockMatcher.forBlock(Blocks.NETHERRACK));
     }
 
     private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int maxVeinSize, int chances, BlockMatcher blockChanging) {

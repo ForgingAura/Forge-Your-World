@@ -1,12 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
-    "B B",
-    "B B"
+    "BB",
+    "  ",
+    "BB"
   ],
   "key": {
     "B": {
-      "item": "fresource:terillium"
+      "type": "forge:ore_dict",
+      "ore": "gemTerillium"
     }
   },
   "result": {

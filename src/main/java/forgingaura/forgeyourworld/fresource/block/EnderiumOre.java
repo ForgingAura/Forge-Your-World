@@ -14,6 +14,7 @@ public class EnderiumOre extends Block {
 		this.setRegistryName(new ResourceLocation(FResource.MODID, unlocalizedName));
 		this.setHardness(4.0F);
 		this.setHarvestLevel("pickaxe", 3);
+		this.setLightLevel(0.6F);
 	}
 
 }

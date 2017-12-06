@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
     "CAC",
     "ABA",
@@ -11,14 +11,15 @@
       "data": 1
     },
     "A": {
-      "item": "fresource:terillium"
+      "type": "forge:ore_dict",
+      "ore": "gemTerillium"
     },
     "C": {
-      "item": "minecraft:glowstone_dust"
+      "type": "forge:ore_dict",
+      "ore": "dustGlowstone"
     }
   },
   "result": {
-    "type": "minecraft:item",
     "item": "fmagic:wseed"
   }
 }

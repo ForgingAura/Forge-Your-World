@@ -35,19 +35,19 @@ public class ArmoryItem {
     public static Item enderiumsword;
 
     public static void init() {
-        terilliumhelmet = new BasicArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD, "terilliumhelmet");
-        terilliumchestplate = new BasicArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST, "terilliumchestplate");
-        terilliumleggings = new BasicArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS, "terilliumleggings");
-        terilliumboots = new BasicArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET, "terilliumboots");
+        terilliumhelmet = new TerlliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD, "terilliumhelmet");
+        terilliumchestplate = new TerlliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST, "terilliumchestplate");
+        terilliumleggings = new TerlliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS, "terilliumleggings");
+        terilliumboots = new TerlliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET, "terilliumboots");
         terilliumhoe = new BasicHoe("terilliumhoe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         terilliumaxe =new BasicAxe("terilliumaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         terilliumpickaxe = new BasicPickaxe("terilliumpickaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         terilliumshovel = new BasicShovel("terilliumshovel", ArmoryItem.ArmoryToolMaterials.terilliumMat);
-        terilliumsword = new BasicSword("terilliumsword", ArmoryItem.ArmoryToolMaterials.terilliumMat);
+        terilliumsword = new TerilliumSword("terilliumsword", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         longbow = new LongBow("longbow");
         crossbow = new CrossBow("crossbow");
         blowgun = new BlowGun("blowgun");
-        enderiumsword = new BasicSword("enderiumsword", ArmoryToolMaterials.enderiumMat);
+        enderiumsword = new EnderiumSword("enderiumsword", ArmoryToolMaterials.enderiumMat);
 
     }
 

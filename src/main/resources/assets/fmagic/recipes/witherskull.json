@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
     "BAB",
     "ABA",
@@ -7,14 +7,15 @@
   ],
   "key": {
     "B": {
-      "item": "fmagic:wfragment"
+      "type": "forge:ore_dict",
+      "ore": "gemWither"
     },
     "A": {
-      "item": "fresource:terillium"
+      "type": "forge:ore_dict",
+      "ore": "gemTerillium"
     }
   },
   "result": {
-    "type": "minecraft:item",
     "item": "minecraft:skull",
     "data": 1
   }
