@@ -1,5 +1,6 @@
 package forgingaura.forgeyourworld.fresource.handler;
 
+import forgingaura.forgeyourworld.farmory.init.ArmoryItem;
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
 import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 import net.minecraft.block.Block;
@@ -21,6 +22,12 @@ public class FuelHandler implements IFuelHandler {
             return 36000;
         } else if (itemFuel == ResourceItem.blazecoal) {
             return 4000;
+        } else if (itemFuel == ArmoryItem.longbow) {
+            return 300;
+        } else if (itemFuel == ArmoryItem.blowgun) {
+            return 300;
+        } else if (itemFuel == ArmoryItem.crossbow) {
+            return 300;
         } else {
             return 0;
         }

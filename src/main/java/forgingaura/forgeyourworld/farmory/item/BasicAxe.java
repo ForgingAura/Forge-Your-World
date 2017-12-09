@@ -26,4 +26,9 @@ public class BasicAxe extends ItemTool {
         this.setRegistryName(new ResourceLocation(FArmory.MODID, unlocalizedName));
         this.canRepair = true;
     }
+
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {
+        if (net.minecraftforge.oredict.OreDictionary.itemMatches(new ItemStack(ResourceItem.terillium), repair, false)) return true;
+        return super.getIsRepairable(toRepair, repair);
+    }
 }

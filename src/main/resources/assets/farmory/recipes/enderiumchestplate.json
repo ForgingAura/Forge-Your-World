@@ -1,17 +1,17 @@
 {
   "type": "forge:ore_shaped",
   "pattern": [
-    "AAA",
-    "AAA",
-    "AAA"
+    "BBB",
+    "BBB",
+    "B B"
   ],
   "key": {
-    "A": {
+    "B": {
       "type": "forge:ore_dict",
-      "ore": "gemTerillium"
+      "ore": "ingotEnderium"
     }
   },
   "result": {
-    "item": "fresource:terilliumblock"
+    "item": "farmory:enderiumchestplate"
   }
 }

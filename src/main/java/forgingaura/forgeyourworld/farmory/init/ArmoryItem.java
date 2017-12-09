@@ -33,12 +33,17 @@ public class ArmoryItem {
     public static Item crossbow;
     public static Item blowgun;
     public static Item enderiumsword;
+    public static Item reddiamondsword;
+    public static Item enderiumhelmet;
+    public static Item enderiumchestplate;
+    public static Item enderiumleggings;
+    public static Item enderiumboots;
 
     public static void init() {
         terilliumhelmet = new TerlliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD, "terilliumhelmet");
-        terilliumchestplate = new TerlliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST, "terilliumchestplate");
-        terilliumleggings = new TerlliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS, "terilliumleggings");
-        terilliumboots = new TerlliumArmor(ArmoryItem.ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET, "terilliumboots");
+        terilliumchestplate = new TerlliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.CHEST, "terilliumchestplate");
+        terilliumleggings = new TerlliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.LEGS, "terilliumleggings");
+        terilliumboots = new TerlliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.FEET, "terilliumboots");
         terilliumhoe = new BasicHoe("terilliumhoe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         terilliumaxe =new BasicAxe("terilliumaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
         terilliumpickaxe = new BasicPickaxe("terilliumpickaxe", ArmoryItem.ArmoryToolMaterials.terilliumMat);
@@ -48,6 +53,11 @@ public class ArmoryItem {
         crossbow = new CrossBow("crossbow");
         blowgun = new BlowGun("blowgun");
         enderiumsword = new EnderiumSword("enderiumsword", ArmoryToolMaterials.enderiumMat);
+        reddiamondsword = new RedDiamondSword(ArmoryToolMaterials.reddiamondMat, "reddiamondsword");
+        enderiumhelmet = new EnderiumArmor(ArmoryArmorMaterials.enderiumMat, 3, EntityEquipmentSlot.HEAD, "enderiumhelmet");
+        enderiumchestplate = new EnderiumArmor(ArmoryArmorMaterials.enderiumMat, 3, EntityEquipmentSlot.CHEST, "enderiumchestplate");
+        enderiumleggings = new EnderiumArmor(ArmoryArmorMaterials.enderiumMat, 3, EntityEquipmentSlot.LEGS, "enderiumleggings");
+        enderiumboots = new EnderiumArmor(ArmoryArmorMaterials.enderiumMat, 3, EntityEquipmentSlot.FEET, "enderiumboots");
 
     }
 
@@ -65,6 +75,11 @@ public class ArmoryItem {
         registerItem(crossbow);
         registerItem(blowgun);
         registerItem(enderiumsword);
+        registerItem(reddiamondsword);
+        registerItem(enderiumhelmet);
+        registerItem(enderiumchestplate);
+        registerItem(enderiumleggings);
+        registerItem(enderiumboots);
 
     }
 
@@ -82,17 +97,24 @@ public class ArmoryItem {
         registerRender(crossbow);
         registerRender(blowgun);
         registerRender(enderiumsword);
+        registerRender(reddiamondsword);
+        registerRender(enderiumhelmet);
+        registerRender(enderiumchestplate);
+        registerRender(enderiumleggings);
+        registerRender(enderiumboots);
 
     }
 
     public static class ArmoryArmorMaterials {
-        public static final ItemArmor.ArmorMaterial terilliumMat = EnumHelper.addArmorMaterial("terilliumMat", FArmory.MODID + ":terilliumarmor", 25, new int[]{2, 5, 7 ,2}, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F).setRepairItem(new ItemStack(ResourceItem.terillium));
+        public static final ItemArmor.ArmorMaterial terilliumMat = EnumHelper.addArmorMaterial("terilliumMat", FArmory.MODID + ":terilliumarmor", 25, new int[]{3, 6, 8 ,3}, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
+        public static final ItemArmor.ArmorMaterial enderiumMat = EnumHelper.addArmorMaterial("enderiumMat", FArmory.MODID + ":enderiumarmor", 75, new int[]{3, 6, 8 ,3}, 75, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
 
     }
 
     public static class ArmoryToolMaterials {
         public static final Item.ToolMaterial terilliumMat = EnumHelper.addToolMaterial("terilliumMat", 3, 768, 8.0F, 2.0F, 25).setRepairItem(new ItemStack(ResourceItem.terillium));
-        public static final Item.ToolMaterial enderiumMat = EnumHelper.addToolMaterial("enderiumMat", 9, 2304, 24.0F, 6.0F, 75).setRepairItem(new ItemStack(ResourceItem.enderiumingot));
+        public static final Item.ToolMaterial enderiumMat = EnumHelper.addToolMaterial("enderiumMat", 3, 2304, 24.0F, 6.0F, 75).setRepairItem(new ItemStack(ResourceItem.enderiumingot));
+        public static final Item.ToolMaterial reddiamondMat = EnumHelper.addToolMaterial("reddiamondMat", 3, 1536, 16.0F, 4.0F, 50).setRepairItem(new ItemStack(ResourceItem.reddiamond));
 
     }
 

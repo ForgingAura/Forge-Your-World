@@ -1,6 +1,13 @@
+-1.6
+add red diamond sword (alasdiablo, texture find on minecraft.novaskin.me)
+add enderium block (AlasDiablo)
+add red diamond block (AlasDiablo)
+add enderium armor (AlasDiablo)
+fix name of apple jam jar (AlasDiablo)
+------------------------------------------------------------------
 -1.5
 fix Light level on blaze coal ore and terillium ore (AlasDiablo)
-add Light level on enderium (AlasDiablo)
+add Light level on enderium ore (AlasDiablo)
 start change item id to ore dictionary id in recipe (AlasDiablo)
 add terillium block (alasdiablo)
 add red diamond item and ore (alasdiablo)

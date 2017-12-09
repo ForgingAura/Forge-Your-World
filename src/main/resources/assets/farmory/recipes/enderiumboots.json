@@ -1,0 +1,18 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "BB",
+    "  ",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotEnderium"
+    }
+  },
+  "result": {
+    "type": "minecraft:item",
+    "item": "farmory:enderiumboots"
+  }
+}

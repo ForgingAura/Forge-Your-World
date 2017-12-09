@@ -3,11 +3,11 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "blockTerillium"
+      "ore": "blockEnderium"
     }
   ],
   "result": {
-    "item": "fresource:terillium",
+    "item": "fresource:enderiumingot",
     "count": 9
   }
 }

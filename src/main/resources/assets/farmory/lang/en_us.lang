@@ -1,7 +1,7 @@
 //en lang
 
 //item
-item.terilliumsword.name=Terillium Sword
+item.terilliumsword.name=§aTerillium Sword
 item.terilliumshovel.name=Terillium Shovel
 item.terilliumpickaxe.name=Terillium Pickaxe
 item.terilliumhoe.name=Terillium Hoe
@@ -14,6 +14,11 @@ item.longbow.name=Long Bow
 item.crossbow.name=Crossbow
 item.blowgun.name=Blowgun
 item.enderiumsword.name=§dEnderium Sword
+item.reddiamondsword.name=§4Red Diamond Sword
+item.enderiumleggings.name=Enderium Leggings
+item.enderiumboots.name=Enderium Boots
+item.enderiumhelmet.name=Enderium Helmet
+item.enderiumchestplate.name=Enderium ChestPlate
 
 //Creative Tab
 itemGroup.tabArmory=Forge Your World: Tools And Armors

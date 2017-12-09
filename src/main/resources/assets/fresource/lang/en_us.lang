@@ -14,6 +14,8 @@ tile.blazecoalore.name=Blaze Coal Ore
 tile.enderiumore.name=Enderium Ore
 tile.terilliumblock.name=Terillium Block
 tile.reddiamondore.name=Red Diamond Ore
+tile.enderiumblock.name=Enderium Block
+tile.reddiamondblock.name=Red Diamond Block
 
 
 //Creative Tab

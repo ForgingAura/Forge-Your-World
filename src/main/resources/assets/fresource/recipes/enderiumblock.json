@@ -8,10 +8,10 @@
   "key": {
     "A": {
       "type": "forge:ore_dict",
-      "ore": "gemTerillium"
+      "ore": "ingotEnderium"
     }
   },
   "result": {
-    "item": "fresource:terilliumblock"
+    "item": "fresource:enderiumblock"
   }
 }

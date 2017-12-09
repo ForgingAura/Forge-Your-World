@@ -3,11 +3,11 @@
   "ingredients": [
     {
       "type": "forge:ore_dict",
-      "ore": "blockTerillium"
+      "ore": "blockReddiamond"
     }
   ],
   "result": {
-    "item": "fresource:terillium",
+    "item": "fresource:reddiamond",
     "count": 9
   }
 }

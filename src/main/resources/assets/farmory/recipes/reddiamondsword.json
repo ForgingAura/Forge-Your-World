@@ -1,9 +1,9 @@
 {
   "type": "forge:ore_shaped",
   "pattern": [
-    " B",
-    "CA",
-    "CA"
+    " B ",
+    "CAC",
+    " A "
   ],
   "key": {
     "B": {
@@ -12,7 +12,7 @@
     },
     "A": {
       "type": "forge:ore_dict",
-      "ore": "ingotEnderium"
+      "ore": "gemReddiamond"
     },
     "C": {
       "type": "forge:ore_dict",
@@ -20,6 +20,6 @@
     }
   },
   "result": {
-    "item": "farmory:enderiumsword"
+    "item": "farmory:reddiamondsword"
   }
 }

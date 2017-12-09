@@ -1,6 +1,8 @@
 package forgingaura.forgeyourworld.farmory.item;
 
 import forgingaura.forgeyourworld.FArmory;
+import forgingaura.forgeyourworld.farmory.init.ArmoryItem;
+import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
@@ -22,5 +24,10 @@ public class EnderiumSword extends ItemSword {
         par2EntityLiving.addPotionEffect(new PotionEffect(Potion.getPotionById(25), 15,3));
         par2EntityLiving.addPotionEffect(new PotionEffect(Potion.getPotionById(24), 25,3));
         return super.hitEntity(par1ItemStack, par2EntityLiving, par3EntityLiving);
+    }
+
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {
+        if (net.minecraftforge.oredict.OreDictionary.itemMatches(new ItemStack(ResourceItem.enderiumingot), repair, false)) return true;
+        return super.getIsRepairable(toRepair, repair);
     }
 }

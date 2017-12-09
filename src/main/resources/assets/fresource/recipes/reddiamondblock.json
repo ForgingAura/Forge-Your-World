@@ -8,10 +8,10 @@
   "key": {
     "A": {
       "type": "forge:ore_dict",
-      "ore": "gemTerillium"
+      "ore": "gemReddiamond"
     }
   },
   "result": {
-    "item": "fresource:terilliumblock"
+    "item": "fresource:reddiamondblock"
   }
 }

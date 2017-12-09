@@ -13,6 +13,7 @@ import java.util.Random;
  * Created by AlasDiablo on 11/11/2017.
  */
 public class SlabDoubleEndStone extends UtilsSlab{
+
     public SlabDoubleEndStone(String unlocalizedName, Material materialIn) {
         super(unlocalizedName, materialIn);
     }

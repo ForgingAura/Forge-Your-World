@@ -23,6 +23,8 @@ public class ResourceBlock {
     public static Block terilliumore;
     public static Block terilliumblock;
     public static Block reddiamondore;
+    public static Block reddiamondblock;
+    public static Block enderiumblock;
 
     public static void init() {
         blazecoalblock = new BlazeCoalBlock("blazecoalblock");
@@ -31,6 +33,8 @@ public class ResourceBlock {
         terilliumore = new TerilliumOre("terilliumore");
         terilliumblock = new BasicBlockOre(Material.IRON, "terilliumblock", 2, 4.0F, 0);
         reddiamondore = new RedDiamondOre("reddiamondore");
+        reddiamondblock = new BasicBlockOre(Material.IRON, "reddiamondblock", 2, 4.0F, 0);
+        enderiumblock = new BasicBlockOre(Material.IRON, "enderiumblock", 3, 4.0F, 0);
 
     }
 
@@ -41,6 +45,8 @@ public class ResourceBlock {
         registerBlock(terilliumore);
         registerBlock(terilliumblock);
         registerBlock(reddiamondore);
+        registerBlock(reddiamondblock);
+        registerBlock(enderiumblock);
 
     }
 
@@ -51,6 +57,8 @@ public class ResourceBlock {
         registerRender(terilliumore);
         registerRender(terilliumblock);
         registerRender(reddiamondore);
+        registerRender(reddiamondblock);
+        registerRender(enderiumblock);
 
     }
 
