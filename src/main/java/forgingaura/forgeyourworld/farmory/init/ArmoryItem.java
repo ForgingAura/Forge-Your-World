@@ -38,6 +38,10 @@ public class ArmoryItem {
     public static Item enderiumchestplate;
     public static Item enderiumleggings;
     public static Item enderiumboots;
+    public static Item reddiamondhelmet;
+    public static Item reddiamondchestplate;
+    public static Item reddiamondleggings;
+    public static Item reddiamondboots;
 
     public static void init() {
         terilliumhelmet = new TerlliumArmor(ArmoryArmorMaterials.terilliumMat, 3, EntityEquipmentSlot.HEAD, "terilliumhelmet");
@@ -58,6 +62,11 @@ public class ArmoryItem {
         enderiumchestplate = new EnderiumArmor(ArmoryArmorMaterials.enderiumMat, 3, EntityEquipmentSlot.CHEST, "enderiumchestplate");
         enderiumleggings = new EnderiumArmor(ArmoryArmorMaterials.enderiumMat, 3, EntityEquipmentSlot.LEGS, "enderiumleggings");
         enderiumboots = new EnderiumArmor(ArmoryArmorMaterials.enderiumMat, 3, EntityEquipmentSlot.FEET, "enderiumboots");
+        reddiamondhelmet = new RedDiamondArmor(ArmoryArmorMaterials.reddiamondMat, 3, EntityEquipmentSlot.HEAD, "reddiamondhelmet");
+        reddiamondchestplate = new RedDiamondArmor(ArmoryArmorMaterials.reddiamondMat, 3, EntityEquipmentSlot.CHEST, "reddiamondchestplate");
+        reddiamondleggings = new RedDiamondArmor(ArmoryArmorMaterials.reddiamondMat, 3, EntityEquipmentSlot.LEGS, "reddiamondleggings");
+        reddiamondboots = new RedDiamondArmor(ArmoryArmorMaterials.reddiamondMat, 3, EntityEquipmentSlot.FEET, "reddiamondboots");
+
 
     }
 
@@ -80,6 +89,10 @@ public class ArmoryItem {
         registerItem(enderiumchestplate);
         registerItem(enderiumleggings);
         registerItem(enderiumboots);
+        registerItem(reddiamondhelmet);
+        registerItem(reddiamondchestplate);
+        registerItem(reddiamondleggings);
+        registerItem(reddiamondboots);
 
     }
 
@@ -102,12 +115,17 @@ public class ArmoryItem {
         registerRender(enderiumchestplate);
         registerRender(enderiumleggings);
         registerRender(enderiumboots);
+        registerRender(reddiamondhelmet);
+        registerRender(reddiamondchestplate);
+        registerRender(reddiamondleggings);
+        registerRender(reddiamondboots);
 
     }
 
     public static class ArmoryArmorMaterials {
         public static final ItemArmor.ArmorMaterial terilliumMat = EnumHelper.addArmorMaterial("terilliumMat", FArmory.MODID + ":terilliumarmor", 25, new int[]{3, 6, 8 ,3}, 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.5F);
         public static final ItemArmor.ArmorMaterial enderiumMat = EnumHelper.addArmorMaterial("enderiumMat", FArmory.MODID + ":enderiumarmor", 75, new int[]{3, 6, 8 ,3}, 75, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F);
+        public static final ItemArmor.ArmorMaterial reddiamondMat = EnumHelper.addArmorMaterial("reddiamondMat", FArmory.MODID + ":reddiamondarmor", 50, new int[]{3, 6, 8 ,3}, 50, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.75F);
 
     }
 

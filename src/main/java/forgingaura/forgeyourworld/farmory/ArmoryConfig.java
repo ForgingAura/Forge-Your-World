@@ -6,9 +6,10 @@ import org.apache.logging.log4j.Level;
 
 public class ArmoryConfig {
 
-    private static final String ENABLE_ARMORY = "enable_armory";
+    private static final String ARMORY_CONFIG = "armory_config";
 
     public static boolean enable_armory = true;
+    public static int elementary_multi = 0;
 
     public static void readConfig() {
         Configuration cfg = FArmory.config;
@@ -25,7 +26,8 @@ public class ArmoryConfig {
     }
 
     private static void initEnableConfig(Configuration cfg) {
-        cfg.addCustomCategoryComment(ENABLE_ARMORY, "Enable Forge Your World: Armory");
-        enable_armory = cfg.getBoolean("farmory", ENABLE_ARMORY, enable_armory, "Set to false if you want to disable Forge Your World Armory");
+        cfg.addCustomCategoryComment(ARMORY_CONFIG, "This is the config files for customize forge your world mod");
+        enable_armory = cfg.getBoolean("farmory", ARMORY_CONFIG, enable_armory, "Set to false if you want to disable Forge Your World Armory");
+        elementary_multi = cfg.getInt("armor_multi_potion", ARMORY_CONFIG, elementary_multi, 0, 255, "this is the amplified of potion effect on special sword and armor 255 = no effect 0 = default value(speed I for example)");
     }
 }

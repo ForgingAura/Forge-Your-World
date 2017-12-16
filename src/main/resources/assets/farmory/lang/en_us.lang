@@ -19,6 +19,11 @@ item.enderiumleggings.name=Enderium Leggings
 item.enderiumboots.name=Enderium Boots
 item.enderiumhelmet.name=Enderium Helmet
 item.enderiumchestplate.name=Enderium ChestPlate
+item.reddiamondleggings.name=Red Diamond Leggings
+item.reddiamondboots.name=Red Diamond Boots
+item.reddiamondhelmet.name=Red Diamond Helmet
+item.reddiamondchestplate.name=Red Diamond ChestPlate
+
 
 //Creative Tab
 itemGroup.tabArmory=Forge Your World: Tools And Armors

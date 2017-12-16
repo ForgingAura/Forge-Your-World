@@ -1,6 +1,7 @@
 package forgingaura.forgeyourworld.farmory.item;
 
 import forgingaura.forgeyourworld.FArmory;
+import forgingaura.forgeyourworld.farmory.ArmoryConfig;
 import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
@@ -19,9 +20,11 @@ public class RedDiamondSword extends ItemSword {
     }
 
     public boolean hitEntity(ItemStack par1ItemStack, EntityLivingBase par2EntityLiving, EntityLivingBase par3EntityLiving) {
-        par2EntityLiving.addPotionEffect(new PotionEffect(Potion.getPotionById(20), 50,3));
-        par2EntityLiving.addPotionEffect(new PotionEffect(Potion.getPotionById(9), 50,3));
-        par2EntityLiving.setFire(4);
+        if(ArmoryConfig.elementary_multi != 255) {
+            par2EntityLiving.addPotionEffect(new PotionEffect(Potion.getPotionById(20), 50, 3 * ArmoryConfig.elementary_multi));
+            par2EntityLiving.addPotionEffect(new PotionEffect(Potion.getPotionById(9), 50, 3 * ArmoryConfig.elementary_multi));
+            par2EntityLiving.setFire(4 * ArmoryConfig.elementary_multi);
+        }
         return super.hitEntity(par1ItemStack, par2EntityLiving, par3EntityLiving);
     }
 

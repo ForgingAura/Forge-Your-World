@@ -24,6 +24,7 @@ tile.endstonebrickcracked.name=Brique de l'End Craquelée
 tile.endstonebrickmossy.name=Brique de l'End Moussue
 tile.endstone_slab_half.name=Dalle en Brique de l'End
 tile.endstone_slab_double.name=Dalle en Brique de l'End
+tile.christmas_tree.name=Sapin de Noël
 
 //Creative Tab
 itemGroup.tabDeco=Forge Your World: Décoration et Autre

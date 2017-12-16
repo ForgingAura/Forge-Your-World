@@ -1,3 +1,7 @@
+-1.7
+add christmas tree (AlasDiablo)
+add red diamond armor (AlasDiablo)
+------------------------------------------------------------------
 -1.6
 add red diamond sword (alasdiablo, texture find on minecraft.novaskin.me)
 add enderium block (AlasDiablo)

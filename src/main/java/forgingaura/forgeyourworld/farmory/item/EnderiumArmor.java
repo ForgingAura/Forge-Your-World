@@ -1,6 +1,7 @@
 package forgingaura.forgeyourworld.farmory.item;
 
 import forgingaura.forgeyourworld.FArmory;
+import forgingaura.forgeyourworld.farmory.ArmoryConfig;
 import forgingaura.forgeyourworld.fresource.init.ResourceItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -21,10 +22,11 @@ public class EnderiumArmor extends ItemArmor{
 
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
-        player.addPotionEffect(new PotionEffect(Potion.getPotionById(3), 100, 1));
-        player.addPotionEffect(new PotionEffect(Potion.getPotionById(10), 100, 1));
-        player.addPotionEffect(new PotionEffect(Potion.getPotionById(11), 100, 1));
-
+        if(ArmoryConfig.elementary_multi != 255) {
+            player.addPotionEffect(new PotionEffect(Potion.getPotionById(3), 100, ArmoryConfig.elementary_multi));
+            player.addPotionEffect(new PotionEffect(Potion.getPotionById(10), 100, ArmoryConfig.elementary_multi));
+            player.addPotionEffect(new PotionEffect(Potion.getPotionById(11), 100, ArmoryConfig.elementary_multi));
+        }
     }
 
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {

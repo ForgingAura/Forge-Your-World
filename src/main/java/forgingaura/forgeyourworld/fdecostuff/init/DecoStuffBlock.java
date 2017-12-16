@@ -42,6 +42,7 @@ public class DecoStuffBlock {
     public static Block granitebrickcarved;
     public static Block granitebrickcracked;
     public static Block granitebrickmossy;
+    public static Block christmastree;
 
     public static void init() {
         endstonebrickcarved = new EndStoneBrickCarved("endstonebrickcarved");
@@ -59,6 +60,7 @@ public class DecoStuffBlock {
         granitebrickcarved = new GraniteBrickCarved("granitebrickcarved");
         granitebrickcracked = new GraniteBrickCracked("granitebrickcracked");
         granitebrickmossy = new GraniteBrickMossy("granitebrickmossy");
+        christmastree = new ChristmasTree("christmas_tree");
 
     }
 
@@ -86,6 +88,7 @@ public class DecoStuffBlock {
         registerBlock(granitebrickcarved);
         registerBlock(granitebrickcracked);
         registerBlock(granitebrickmossy);
+        registerBlock(christmastree);
 
     }
 
@@ -114,6 +117,7 @@ public class DecoStuffBlock {
         registerRender(granitebrickmossy);
         registerRender(granite_slab_half);
         registerRender(granite_slab_double);
+        registerRender(christmastree);
 
     }
 
