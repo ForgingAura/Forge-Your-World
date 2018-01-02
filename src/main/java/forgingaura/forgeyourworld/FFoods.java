@@ -21,7 +21,7 @@ import java.io.File;
 /**
  * Created by AlasDiablo on 10/11/2017.
  */
-@Mod(modid = FFoods.MODID, name = FFoods.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
+@Mod(modid = FFoods.MODID, name = FFoods.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = ModVersion.UPDATE)
 public class FFoods {
 
     public static final String MODID = "ffoods";

@@ -1,17 +1,17 @@
 {
   "type": "forge:ore_shaped",
   "pattern": [
-    "BBB",
-    "BBB",
-    "B B"
+    "BB",
+    "  ",
+    "BB"
   ],
   "key": {
     "B": {
       "type": "forge:ore_dict",
-      "ore": "gemTerillium"
+      "ore": "gemReddiamond"
     }
   },
   "result": {
-    "item": "farmory:terilliumchestplate"
+    "item": "farmory:reddiamondboots"
   }
 }

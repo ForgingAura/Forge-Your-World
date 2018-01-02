@@ -27,7 +27,7 @@ import java.io.File;
 /**
  * Created by AlasDiablo on 28/10/2017.
  */
-@Mod(modid = FResource.MODID, name = FResource.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
+@Mod(modid = FResource.MODID, name = FResource.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = ModVersion.UPDATE)
 public class FResource {
 
     public static final String MODID = "fresource";

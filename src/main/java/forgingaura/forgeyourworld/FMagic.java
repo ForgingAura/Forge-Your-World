@@ -20,7 +20,7 @@ import java.io.File;
 /**
  * Created by AlasDiablo on 11/11/2017.
  */
-@Mod(modid = FMagic.MODID, name = FMagic.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
+@Mod(modid = FMagic.MODID, name = FMagic.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = ModVersion.UPDATE)
 public class FMagic {
 
     public static final String MODID = "fmagic";

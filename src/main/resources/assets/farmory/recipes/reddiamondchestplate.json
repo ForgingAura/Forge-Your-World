@@ -8,10 +8,10 @@
   "key": {
     "B": {
       "type": "forge:ore_dict",
-      "ore": "gemTerillium"
+      "ore": "gemReddiamond"
     }
   },
   "result": {
-    "item": "farmory:terilliumchestplate"
+    "item": "farmory:reddiamondchestplate"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
     "AAC",
     "DBC",
@@ -7,20 +7,23 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:stick"
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
     },
     "B": {
+      "type": "minecraft:item",
       "item": "minecraft:bow"
     },
     "C": {
+      "type": "minecraft:item",
       "item": "minecraft:string"
     },
     "D": {
-      "item": "minecraft:iron_ingot"
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
     }
   },
   "result": {
-    "type": "minecraft:item",
     "item": "farmory:crossbow"
   }
 }

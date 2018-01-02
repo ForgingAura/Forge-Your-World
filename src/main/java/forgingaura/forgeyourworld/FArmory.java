@@ -19,7 +19,7 @@ import java.io.File;
 /**
  * Created by AlasDiablo on 30/10/2017.
  */
-@Mod(modid = FArmory.MODID, name = FArmory.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = "https://raw.githubusercontent.com/ForgingAura/Forge-Your-World-1.X-to-X.X/master/update.json")
+@Mod(modid = FArmory.MODID, name = FArmory.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = ModVersion.UPDATE)
 public class FArmory {
 
     public static final String MODID = "farmory";

@@ -1,12 +1,15 @@
 # Configuration file
 
 ##########################################################################################################
-# enable_armory
+# armory_config
 #--------------------------------------------------------------------------------------------------------#
-# Enable Forge Your World: Armory
+# This is the config files for customize forge your world mod
 ##########################################################################################################
 
-enable_armory {
+armory_config {
+    # this is the amplified of potion effect on special sword and armor 255 = no effect 0 = default value(speed I for example) [range: 0 ~ 255, default: 0]
+    I:armor_multi_potion=0
+
     # Set to false if you want to disable Forge Your World Armory [default: true]
     B:farmory=true
 }

@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "forge:ore_shaped",
   "pattern": [
     "AC",
     "BC",
@@ -7,12 +7,15 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:stick"
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
     },
     "B": {
+      "type": "minecraft:item",
       "item": "minecraft:bow"
     },
     "C": {
+      "type": "minecraft:item",
       "item": "minecraft:string"
     }
   },

@@ -1,3 +1,8 @@
+-1.8
+the mod is comeback
+updated forge enviroment to 14.23.1.2555
+fix recipe of all item with a recipe defective
+------------------------------------------------------------------
 -1.7
 add christmas tree (AlasDiablo)
 add red diamond armor (AlasDiablo)
