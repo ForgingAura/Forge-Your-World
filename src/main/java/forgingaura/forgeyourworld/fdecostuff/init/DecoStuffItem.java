@@ -10,8 +10,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class DecoStuffItem {
 
-
-
     public static void init() {
 
     }
@@ -26,7 +24,7 @@ public class DecoStuffItem {
     }
 
     public static void registerItem(Item item) {
-        //item.setCreativeTab(FDecoStuff.STUFF_TAB); //Sets the creative tab
+        item.setCreativeTab(FDecoStuff.STUFF_TAB); //Sets the creative tab
         GameRegistry.findRegistry(Item.class).register(item);
         MagicUtils.getLogger().info("Registered Item: " + item.getUnlocalizedName().substring(5));
     }

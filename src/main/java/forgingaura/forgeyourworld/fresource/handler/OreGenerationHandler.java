@@ -1,6 +1,7 @@
 package forgingaura.forgeyourworld.fresource.handler;
 
 import forgingaura.forgeyourworld.fresource.init.ResourceBlock;
+import net.minecraft.block.Block;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
@@ -39,17 +40,19 @@ public class OreGenerationHandler implements IWorldGenerator{
     }
 
     private void generateEnd(World world, Random random, int x, int z) {
-        generateOre(ResourceBlock.enderiumore.getDefaultState(), world, random, x, z, 1, 80, 4, 64, BlockMatcher.forBlock(Blocks.END_STONE));
+        generateOre(ResourceBlock.enderiumore.getDefaultState(), world, random, x, z, 1, 60, 4, 64, BlockMatcher.forBlock(Blocks.END_STONE));
     }
 
     private void generateSurface(World world, Random random, int x, int z) {
         //generateOre(ModsBlocks.BlockOre.getDefaultState(), world, random, x, z, valeur minY, valeur maxY, valuer maxVienSize, valeur chances, BlockMatcher.forBlock(Block Remplacer));
-        generateOre(ResourceBlock.terilliumore.getDefaultState(), world, random, x, z, 4, 20, 4, 8, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ResourceBlock.terilliumore.getDefaultState(), world, random, x, z, 1, 20, 4, 8, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ResourceBlock.copperore.getDefaultState(), world, random, x, z, 1, 64, 8, 32, BlockMatcher.forBlock(Blocks.STONE));
+        generateOre(ResourceBlock.tinore.getDefaultState(), world, random, x, z, 1, 64, 8, 32, BlockMatcher.forBlock(Blocks.STONE));
     }
 
     private void generateNether(World world, Random random, int x, int z) {
-        generateOre(ResourceBlock.blazecoalore.getDefaultState(), world, random, x, z, 4, 127, 16, 64, BlockMatcher.forBlock(Blocks.NETHERRACK));
-        generateOre(ResourceBlock.reddiamondore.getDefaultState(), world, random, x, z, 4, 127, 4, 16, BlockMatcher.forBlock(Blocks.NETHERRACK));
+        generateOre(ResourceBlock.blazecoalore.getDefaultState(), world, random, x, z, 1, 127, 16, 64, BlockMatcher.forBlock(Blocks.NETHERRACK));
+        generateOre(ResourceBlock.reddiamondore.getDefaultState(), world, random, x, z, 1, 127, 4, 16, BlockMatcher.forBlock(Blocks.NETHERRACK));
     }
 
     private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int maxVeinSize, int chances, BlockMatcher blockChanging) {

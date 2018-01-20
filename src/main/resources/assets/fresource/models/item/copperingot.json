@@ -1,6 +1,6 @@
 ﻿{
     "parent": "item/generated",
     "textures": {
-        "layer0": "fresource:items/enderium_ingot"
+        "layer0": "fresource:items/copper_ingot"
     }
 }

@@ -35,7 +35,7 @@ public class FDecoStuff {
     public static DecoStuffCommon proxy;
 
     public static final CreativeTabs DECO_TAB = new DecoTab();
-    //public static final CreativeTabs STUFF_TAB = new StuffTab();
+    public static final CreativeTabs STUFF_TAB = new StuffTab();
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
@@ -44,10 +44,10 @@ public class FDecoStuff {
         DecoStuffConfig.readConfig();
         if(DecoStuffConfig.enable_decostuff == true) {
             DecoStuffBlock.init();
-            //DecoStuffItem.init();
+            DecoStuffItem.init();
             System.out.println("[Forge Your World Decoration And Stuff] Block/Item Init Done");
             DecoStuffBlock.register();
-            //DecoStuffItem.register();
+            DecoStuffItem.register();
             System.out.println("[Forge Your World Decoration And Stuff] Block/Item Register Done");
             proxy.preInit();
             proxy.registerRenders();

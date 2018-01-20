@@ -22,6 +22,9 @@ public class ResourceItem {
     public static Item terillium;
     public static Item enderiumingot;
     public static Item reddiamond;
+    public static Item copperingot;
+    public static Item tiningot;
+    public static Item bronzeingot;
 
     public static void init() {
         blazecoal = new BlazeCoal("blazecoal");
@@ -29,6 +32,9 @@ public class ResourceItem {
         terillium = new Terillium("terillium");
         enderiumingot = new BasicIngotGemItem("enderiumingot");
         reddiamond = new BasicIngotGemItem("reddiamond");
+        copperingot = new BasicIngotGemItem("copperingot");
+        tiningot = new BasicIngotGemItem("tiningot");
+        bronzeingot = new BasicIngotGemItem("bronzeingot");
 
     }
 
@@ -38,6 +44,9 @@ public class ResourceItem {
         registerItem(terillium);
         registerItem(enderiumingot);
         registerItem(reddiamond);
+        registerItem(copperingot);
+        registerItem(tiningot);
+        registerItem(bronzeingot);
 
     }
 
@@ -47,6 +56,9 @@ public class ResourceItem {
         registerRender(terillium);
         registerRender(enderiumingot);
         registerRender(reddiamond);
+        registerRender(copperingot);
+        registerRender(tiningot);
+        registerRender(bronzeingot);
 
     }
 

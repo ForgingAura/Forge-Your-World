@@ -1,7 +1,16 @@
+-1.1.9
+new version name 1 => mc version(for the mod 1.12 = 1, in the future 1.13 = 2), 1 => version of the last big update, 9 numbre of version, so 1.1.9
+fix drop of wither crop (AlasDiablo)
+add copper ore (AlasDiablo)
+add tin ore (AlasDiablo)
+add bronze ingot (AlasDiablo)
+add copper ingot (AlasDiablo)
+add tin ingot (AlasDiablo)
+------------------------------------------------------------------
 -1.8
 the mod is comeback
-updated forge enviroment to 14.23.1.2555
-fix recipe of all item with a recipe defective
+updated forge enviroment to 14.23.1.2555 (AlasDiablo)
+fix recipe of all item with a recipe defective (AlasDiablo)
 ------------------------------------------------------------------
 -1.7
 add christmas tree (AlasDiablo)
@@ -33,7 +42,7 @@ add support of 1.12, 1.12.1 and 1.12.2
 ------------------------------------------------------------------
 -1.3
 Change Cursor in-game (AlasDiablo)
-Add Blowgun (AlasDiablo)
+Add Blowgun (AlasDiablo, idea propose by TheKilleur2001)
 ------------------------------------------------------------------
 -1.2
 add player head drop on death (AlasDiablo)

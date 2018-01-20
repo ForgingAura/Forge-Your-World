@@ -6,6 +6,9 @@ item.terillium.name=§aTerillium
 item.blazecoal.name=Blaze Coal
 item.reddiamond.name=§4Red Diamond
 item.enderiumingot.name=§dEnderium Ingot
+item.copperingot.name=Copper Ingot
+item.tiningot.name=Tin Ingot
+item.bronzeingot.name=Bronze Ingot
 
 //Blocks
 tile.terilliumore.name=Terillium Ore
@@ -16,6 +19,8 @@ tile.terilliumblock.name=Terillium Block
 tile.reddiamondore.name=Red Diamond Ore
 tile.enderiumblock.name=Enderium Block
 tile.reddiamondblock.name=Red Diamond Block
+tile.copperore.name=Copper Ore
+tile.tinore.name=Tin Ore
 
 
 //Creative Tab

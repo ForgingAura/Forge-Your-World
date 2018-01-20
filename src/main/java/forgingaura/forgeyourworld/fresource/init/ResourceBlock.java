@@ -3,6 +3,7 @@ package forgingaura.forgeyourworld.fresource.init;
 import forgingaura.forgeyourworld.FResource;
 import forgingaura.forgeyourworld.fresource.ResourceUtils;
 import forgingaura.forgeyourworld.fresource.block.*;
+import forgingaura.forgeyourworld.util.BasicBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -25,6 +26,8 @@ public class ResourceBlock {
     public static Block reddiamondore;
     public static Block reddiamondblock;
     public static Block enderiumblock;
+    public static Block copperore;
+    public static Block tinore;
 
     public static void init() {
         blazecoalblock = new BlazeCoalBlock("blazecoalblock");
@@ -35,6 +38,8 @@ public class ResourceBlock {
         reddiamondore = new RedDiamondOre("reddiamondore");
         reddiamondblock = new BasicBlockOre(Material.IRON, "reddiamondblock", 2, 4.0F, 0);
         enderiumblock = new BasicBlockOre(Material.IRON, "enderiumblock", 3, 4.0F, 0);
+        copperore = new BasicBlock(Material.ROCK, "copperore", 1, FResource.MODID);
+        tinore = new BasicBlock(Material.ROCK, "tinore", 1, FResource.MODID);
 
     }
 
@@ -47,6 +52,8 @@ public class ResourceBlock {
         registerBlock(reddiamondore);
         registerBlock(reddiamondblock);
         registerBlock(enderiumblock);
+        registerBlock(copperore);
+        registerBlock(tinore);
 
     }
 
@@ -59,6 +66,8 @@ public class ResourceBlock {
         registerRender(reddiamondore);
         registerRender(reddiamondblock);
         registerRender(enderiumblock);
+        registerRender(copperore);
+        registerRender(tinore);
 
     }
 

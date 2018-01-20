@@ -12,5 +12,8 @@ public class ResourceRecipe {
         GameRegistry.addSmelting(ResourceBlock.terilliumore, new ItemStack(ResourceItem.terillium, 1), 0.5F);
         GameRegistry.addSmelting(ResourceBlock.enderiumore, new ItemStack(ResourceItem.enderiumingot, 1), 0.8F);
 
+        GameRegistry.addSmelting(ResourceBlock.copperore, new ItemStack(ResourceItem.copperingot, 1), 0.2F);
+        GameRegistry.addSmelting(ResourceBlock.tinore, new ItemStack(ResourceItem.tiningot, 1), 0.2F);
+
     }
 }

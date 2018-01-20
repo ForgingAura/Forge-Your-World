@@ -18,7 +18,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 import javax.annotation.Nullable;
 
-public class BlowGun extends ItemBow{
+public class BlowGun extends Item{
 
 
     public BlowGun(String unlocalizedName) {

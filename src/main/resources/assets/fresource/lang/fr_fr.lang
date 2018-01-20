@@ -6,6 +6,9 @@ item.terillium.name=§aTerillium
 item.blazecoal.name=Charbon de Blaze
 item.enderiumingot.name=§dLingot Enderium
 item.reddiamond.name=§4Diamant Rouge
+item.copperingot.name=Lingot Cuivre
+item.tiningot.name=Lingot Étain
+item.bronzeingot.name=Lingot Bronze
 
 //Blocks
 tile.terilliumore.name=Minerai de Terillium
@@ -16,6 +19,8 @@ tile.terilliumblock.name=Block de Terillium
 tile.reddiamondore.name=Minerai de Diamant Rouge
 tile.enderiumblock.name=Bloc d'Enderium
 tile.reddiamondblock.name=Bloc en Diamant Rouge
+tile.copperore.name=Minerai de Cuivre
+tile.tinore.name=Minerai de Étain
 
 //Creative Tab
 itemGroup.tabResource=Forge Your World: Resource

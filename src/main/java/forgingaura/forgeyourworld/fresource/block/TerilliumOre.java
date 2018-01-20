@@ -17,7 +17,7 @@ import java.util.Random;
 public class TerilliumOre extends Block {
 
 	public TerilliumOre(String unlocalizedName) {
-		super(Material.IRON);
+		super(Material.ROCK);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setRegistryName(new ResourceLocation(FResource.MODID, unlocalizedName));
 		this.setHardness(3.0F);

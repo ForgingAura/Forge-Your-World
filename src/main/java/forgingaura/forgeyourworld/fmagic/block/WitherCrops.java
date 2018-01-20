@@ -29,7 +29,7 @@ public class WitherCrops extends BlockCrops{
 
     @Override
     protected Item getCrop() {
-        ItemStack stackcrop= new ItemStack(Items.SKULL, 1, 1);
+        ItemStack stackcrop= new ItemStack(MagicItem.witherfragment);
         Item crop = stackcrop.getItem();
         return crop;
     }

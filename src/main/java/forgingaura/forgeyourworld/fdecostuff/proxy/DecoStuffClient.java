@@ -1,6 +1,5 @@
 package forgingaura.forgeyourworld.fdecostuff.proxy;
 
-import forgingaura.forgeyourworld.fdecostuff.handler.DecoStuffRecipe;
 import forgingaura.forgeyourworld.fdecostuff.init.DecoStuffBlock;
 import forgingaura.forgeyourworld.fdecostuff.init.DecoStuffItem;
 
@@ -16,12 +15,11 @@ public class DecoStuffClient implements DecoStuffCommon {
     @Override
     public void registerRenders() {
         DecoStuffBlock.registerRenders();
-        //DecoStuffItem.registerRenders();
+        DecoStuffItem.registerRenders();
         System.out.println("[Forge Your World Decoration And Stuff] Block/Item Register Renders Done");
     }
 
     @Override
     public void init() {
-
     }
 }

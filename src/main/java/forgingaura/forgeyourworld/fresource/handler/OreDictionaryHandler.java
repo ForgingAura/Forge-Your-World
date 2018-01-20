@@ -23,5 +23,11 @@ public class OreDictionaryHandler {
         OreDictionary.registerOre("gemReddiamond", ResourceItem.reddiamond);
         OreDictionary.registerOre("blockReddiamond", ResourceBlock.reddiamondblock);
         OreDictionary.registerOre("blockEnderium", ResourceBlock.enderiumblock);
+        OreDictionary.registerOre("ingotCopper", ResourceItem.copperingot);
+        OreDictionary.registerOre("ingotTin", ResourceItem.tiningot);
+        OreDictionary.registerOre("ingotBronze", ResourceItem.bronzeingot);
+        OreDictionary.registerOre("oreCopper", ResourceBlock.copperore);
+        OreDictionary.registerOre("oreTin", ResourceBlock.tinore);
+
     }
 }
