@@ -1,0 +1,15 @@
+//fr Lang
+
+//Items
+
+
+//Blocks
+tile.ironfurnace.name=Four en Fer
+tile.steampunkfurnace.name=Four Steampunk
+
+//gui
+container.ironfurnace=Four en Fer
+container.steampunkfurnace=Four Steampunk
+
+//Creative Tab
+itemGroup.tabFactory=Forge Your World: Usine

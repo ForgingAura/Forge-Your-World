@@ -7,4 +7,5 @@ public interface FactoryCommon {
     public void preInit();
     public void init();
     public void registerRenders();
+    public void registerTileEntity();
 }

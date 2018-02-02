@@ -1,0 +1,15 @@
+//en Lang
+
+//Items
+
+
+//Blocks
+tile.ironfurnace.name=Iron Furnace
+tile.steampunkfurnace.name=Steampunk Furnace
+
+//gui
+container.ironfurnace=Iron Furnace
+container.steampunkfurnace=Steampunk Furnace
+
+//Creative Tab
+itemGroup.tabFactory=Forge Your World: Factory
