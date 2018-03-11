@@ -36,8 +36,12 @@ public class RedDiamondArmor extends ItemArmor{
         }
     }
 
-    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {
+    /*public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {
         if (net.minecraftforge.oredict.OreDictionary.itemMatches(new ItemStack(ResourceItem.terillium), repair, false)) return true;
         return super.getIsRepairable(toRepair, repair);
+    }*/
+
+    public boolean getIsRepairable(ItemStack toRepair, ItemStack repair) {
+        return repair.getItem().equals(ResourceItem.reddiamond) ? true : super.getIsRepairable(toRepair, repair);
     }
 }

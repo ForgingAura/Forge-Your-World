@@ -1,3 +1,6 @@
+-1.2.10.1
+fix recipe for steampunk furnace
+------------------------------------------------------------------
 -1.2.10 Tech/Factory Update
 add iron furnace
 add steampunk furnace
