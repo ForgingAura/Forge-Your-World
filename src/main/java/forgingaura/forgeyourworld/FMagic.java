@@ -1,8 +1,10 @@
 package forgingaura.forgeyourworld;
 
 import forgingaura.forgeyourworld.fdecostuff.DecoStuffConfig;
+import forgingaura.forgeyourworld.ffoods.handler.FoodsGrassDrop;
 import forgingaura.forgeyourworld.fmagic.MagicConfig;
 import forgingaura.forgeyourworld.fmagic.MagicTab;
+import forgingaura.forgeyourworld.fmagic.handler.MagicGrassDrop;
 import forgingaura.forgeyourworld.fmagic.init.MagicBlock;
 import forgingaura.forgeyourworld.fmagic.init.MagicItem;
 import forgingaura.forgeyourworld.fmagic.proxy.MagicCommon;
@@ -59,6 +61,8 @@ public class FMagic {
     public void init(FMLInitializationEvent event) {
         if(MagicConfig.enable_magic == true) {
             proxy.init();
+            MagicGrassDrop.registerMagicGrassDrop();
+            System.out.println("[Forge Your World Magic] Grass Drop Add");
             System.out.println("Initialization of Forge Your World Mystical Done");
         }
     }

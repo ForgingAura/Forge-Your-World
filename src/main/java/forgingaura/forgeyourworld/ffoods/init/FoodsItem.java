@@ -3,7 +3,9 @@ package forgingaura.forgeyourworld.ffoods.init;
 import forgingaura.forgeyourworld.FFoods;
 import forgingaura.forgeyourworld.ffoods.FoodsUtils;
 import forgingaura.forgeyourworld.ffoods.item.*;
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
@@ -23,6 +25,10 @@ public class FoodsItem {
     public static Item flour;
     public static Item toast;
     public static Item kitchenknife;
+    public static Item barley;
+    public static Item barleyseed;
+    public static Item beermug;
+    public static Item beer;
 
 
     public static void init() {
@@ -35,6 +41,10 @@ public class FoodsItem {
         flour = new Flour("flour");
         toast = new Toast("toast");
         kitchenknife = new KitchenKnife(Item.ToolMaterial.STONE, "kitchenknife");
+        barley = new Barley("barley");
+        barleyseed = new BarleySeed(FoodsBlock.barleycrops, Blocks.FARMLAND,"barley_seeds");
+        beermug = new BeerMug("beermug");
+        beer = new Beer("beer");
 
     }
 
@@ -48,6 +58,10 @@ public class FoodsItem {
         registerItem(flour);
         registerItem(toast);
         registerItem(kitchenknife);
+        registerItem(barley);
+        registerItem(barleyseed);
+        registerItem(beermug);
+        registerItem(beer);
 
     }
 
@@ -61,6 +75,10 @@ public class FoodsItem {
         registerRender(flour);
         registerRender(toast);
         registerRender(kitchenknife);
+        registerRender(barley);
+        registerRender(barleyseed);
+        registerRender(beermug);
+        registerRender(beer);
     }
 
     public static void registerItem(Item item) {

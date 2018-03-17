@@ -1,9 +1,18 @@
+-1.2.11 SAINT PATRICK Update
+add barley (AlasDiablo)
+add barley seeds (AlasDiablo)
+add barley crops (AlasDiablo)
+add beer mug (AlasDiablo)
+add beer (AlasDiablo)
+fix hardness of copper ore and tin ore (AlasDiablo)
+add drop on grass for wither seeds and barley seeds (AlasDiablo)
+------------------------------------------------------------------
 -1.2.10.1
-fix recipe for steampunk furnace
+fix recipe for steampunk furnace (AlasDiablo)
 ------------------------------------------------------------------
 -1.2.10 Tech/Factory Update
-add iron furnace
-add steampunk furnace
+add iron furnace (AlasDiablo)
+add steampunk furnace (AlasDiablo)
 next update is pricipaly for Tech/Factory
 ------------------------------------------------------------------
 -1.1.9

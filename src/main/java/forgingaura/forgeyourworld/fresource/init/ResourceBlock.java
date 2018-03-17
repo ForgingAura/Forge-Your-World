@@ -38,8 +38,8 @@ public class ResourceBlock {
         reddiamondore = new RedDiamondOre("reddiamondore");
         reddiamondblock = new BasicBlockOre(Material.IRON, "reddiamondblock", 2, 4.0F, 0);
         enderiumblock = new BasicBlockOre(Material.IRON, "enderiumblock", 3, 4.0F, 0);
-        copperore = new BasicBlock(Material.ROCK, "copperore", 1, FResource.MODID);
-        tinore = new BasicBlock(Material.ROCK, "tinore", 1, FResource.MODID);
+        copperore = new BasicBlock(Material.ROCK, "copperore", 1, FResource.MODID).setHardness(3.0F);
+        tinore = new BasicBlock(Material.ROCK, "tinore", 1, FResource.MODID).setHardness(3.0F);
 
     }
 

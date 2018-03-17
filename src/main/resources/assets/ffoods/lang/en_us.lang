@@ -10,6 +10,10 @@ item.chocolatecereals.name=Chocolate Cereals
 item.cerealsbowl.name=Cereals Bowl
 item.chocolatecerealsbowl.name=Chocolate Cereals Bowl
 item.kitchenknife.name=Kitchen Kinfe
+item.barley.name=Barley
+item.barley_seeds.name=Barley Seeds
+item.beer.name=Beer
+item.beermug.name=Beer Mug
 
 //Creative Tab
 itemGroup.tabFoods=Forge Your World: Foods

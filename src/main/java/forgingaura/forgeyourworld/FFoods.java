@@ -3,6 +3,7 @@ package forgingaura.forgeyourworld;
 import forgingaura.forgeyourworld.fdecostuff.DecoStuffConfig;
 import forgingaura.forgeyourworld.ffoods.FoodsConfig;
 import forgingaura.forgeyourworld.ffoods.FoodsTab;
+import forgingaura.forgeyourworld.ffoods.handler.FoodsGrassDrop;
 import forgingaura.forgeyourworld.ffoods.init.FoodsBlock;
 import forgingaura.forgeyourworld.ffoods.init.FoodsItem;
 import forgingaura.forgeyourworld.ffoods.proxy.FoodsCommon;
@@ -43,7 +44,9 @@ public class FFoods {
         FoodsConfig.readConfig();
         if(FoodsConfig.enable_foods == true) {
             FoodsBlock.init();
+            System.out.println("[Forge Your World Foods] Block Init Done");
             FoodsBlock.register();
+            System.out.println("[Forge Your World Foods] Block Register Done");
             FoodsItem.init();
             System.out.println("[Forge Your World Foods] Item Init Done");
             FoodsItem.register();
@@ -58,6 +61,8 @@ public class FFoods {
     public void init(FMLInitializationEvent event) {
         if(FoodsConfig.enable_foods == true) {
             proxy.init();
+            FoodsGrassDrop.registerFoodsGrassDrop();
+            System.out.println("[Forge Your World Foods] Grass Drop Add");
             System.out.println("Initialization of Forge Your World Foods Done");
         }
     }

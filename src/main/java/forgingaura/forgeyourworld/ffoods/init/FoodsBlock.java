@@ -3,6 +3,7 @@ package forgingaura.forgeyourworld.ffoods.init;
 import forgingaura.forgeyourworld.FFoods;
 import forgingaura.forgeyourworld.ffoods.FoodsUtils;
 import forgingaura.forgeyourworld.ffoods.block.AppleJamJar;
+import forgingaura.forgeyourworld.ffoods.block.BarleyCrops;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -17,19 +18,23 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class FoodsBlock {
 
     public static Block applejamjar;
+    public static Block barleycrops;
 
     public static void init() {
         applejamjar = new AppleJamJar("applejamjar");
+        barleycrops = new BarleyCrops("barleycrops");
 
     }
 
     public static void register() {
         registerBlock(applejamjar);
+        GameRegistry.findRegistry(Block.class).register(barleycrops);
 
     }
 
     public static void registerRenders() {
         registerRender(applejamjar);
+        registerRender(barleycrops);
 
     }
 

@@ -10,6 +10,11 @@ item.chocolatecereals.name=Céréales au Chocolat
 item.cerealsbowl.name=Bol de Céréales
 item.chocolatecerealsbowl.name=Bol de Céréales au Chocolat
 item.kitchenknife.name=Couteau de cuisine
+item.barley.name=Orge
+item.barley_seeds.name=Graines d'Orges
+
+item.beer.name=Bière
+item.beermug.name=chope à Biere
 
 //Creative Tab
 itemGroup.tabFoods=Forge Your World: Alimentation
