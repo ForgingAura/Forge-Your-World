@@ -1,12 +1,12 @@
 { 
         "homepage": "https://minecraft.curseforge.com/projects/forge-your-world", 
         "promos": { 
-                "1.12.2-latest": "1.2.11",
-                "1.12.2-recommended": "1.2.11",
-                "1.12.1-latest": "1.2.11",
-                "1.12.1-recommended": "1.2.11",
-                "1.12-latest": "1.2.11",
-                "1.12-recommended": "1.2.11",
+                "1.12.2-latest": "1.2.12",
+                "1.12.2-recommended": "1.2.12",
+                "1.12.1-latest": "1.2.12",
+                "1.12.1-recommended": "1.2.12",
+                "1.12-latest": "1.2.12",
+                "1.12-recommended": "1.2.12",
                 "1.11.2-latest": "Beta-2.2",
                 "1.11.2-recommended": "Beta-2.2",
                 "1.10.2-latest": "PreAlpha0.0.13.1-Stable"

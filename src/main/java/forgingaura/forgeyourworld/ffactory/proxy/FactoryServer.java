@@ -1,6 +1,7 @@
 package forgingaura.forgeyourworld.ffactory.proxy;
 
 import forgingaura.forgeyourworld.FFactory;
+import forgingaura.forgeyourworld.ffactory.tileentity.TileEntityBarrel;
 import forgingaura.forgeyourworld.ffactory.tileentity.TileEntityIronFurnace;
 import forgingaura.forgeyourworld.ffactory.tileentity.TileEntitySteampunkFurnace;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -27,5 +28,6 @@ public class FactoryServer implements FactoryCommon {
     public void registerTileEntity() {
         GameRegistry.registerTileEntity(TileEntityIronFurnace.class, FFactory.MODID + ":ironfurnace");
         GameRegistry.registerTileEntity(TileEntitySteampunkFurnace.class, FFactory.MODID + ":steampunkfurnace");
+        GameRegistry.registerTileEntity(TileEntityBarrel.class, FFactory.MODID + ":barrel");
     }
 }

@@ -3,6 +3,7 @@ package forgingaura.forgeyourworld.ffactory.init;
 import forgingaura.forgeyourworld.FFactory;
 import forgingaura.forgeyourworld.FResource;
 import forgingaura.forgeyourworld.ffactory.FactoryUtils;
+import forgingaura.forgeyourworld.ffactory.block.Barrel;
 import forgingaura.forgeyourworld.ffactory.block.IronFurnace;
 import forgingaura.forgeyourworld.ffactory.block.SteampunkFurnace;
 import net.minecraft.block.Block;
@@ -19,12 +20,14 @@ public class FactoryBlock {
     public static Block litironfurnace;
     public static Block steampunkfurnace;
     public static Block litsteampunkfurnace;
+    public static Block barrel;
 
     public static void init() {
         ironfurnace = new IronFurnace(false).setUnlocalizedName("ironfurnace").setRegistryName(new ResourceLocation(FFactory.MODID, "ironfurnace"));
         litironfurnace = new IronFurnace(true).setUnlocalizedName("lit_ironfurnace").setRegistryName(new ResourceLocation(FFactory.MODID, "lit_ironfurnace"));
         steampunkfurnace = new SteampunkFurnace(false).setUnlocalizedName("steampunkfurnace").setRegistryName(new ResourceLocation(FFactory.MODID, "steampunkfurnace"));
         litsteampunkfurnace = new SteampunkFurnace(true).setUnlocalizedName("lit_steampunkfurnace").setRegistryName(new ResourceLocation(FFactory.MODID, "lit_steampunkfurnace"));
+        barrel = new Barrel("barrel");
 
     }
 
@@ -35,6 +38,7 @@ public class FactoryBlock {
         registerBlock(steampunkfurnace);
         GameRegistry.findRegistry(Block.class).register(litsteampunkfurnace);
         GameRegistry.findRegistry(Item.class).register(new ItemBlock(litsteampunkfurnace).setRegistryName(litsteampunkfurnace.getRegistryName()));
+        registerBlock(barrel);
 
     }
 
@@ -43,6 +47,7 @@ public class FactoryBlock {
         registerRender(litironfurnace);
         registerRender(steampunkfurnace);
         registerRender(litsteampunkfurnace);
+        registerRender(barrel);
 
     }
 

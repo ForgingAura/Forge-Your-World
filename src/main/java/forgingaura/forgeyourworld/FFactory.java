@@ -3,6 +3,7 @@ package forgingaura.forgeyourworld;
 import forgingaura.forgeyourworld.farmory.ArmoryConfig;
 import forgingaura.forgeyourworld.ffactory.FactoryConfig;
 import forgingaura.forgeyourworld.ffactory.FactoryTab;
+import forgingaura.forgeyourworld.ffactory.handler.FactoryGuiHandler;
 import forgingaura.forgeyourworld.ffactory.init.FactoryBlock;
 import forgingaura.forgeyourworld.ffactory.proxy.FactoryCommon;
 import forgingaura.forgeyourworld.util.ModVersion;
@@ -10,10 +11,12 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
+import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 import java.io.File;
 
@@ -23,10 +26,15 @@ import java.io.File;
 @Mod(modid = FFactory.MODID, name = FFactory.NAME, version = ModVersion.VERSION, acceptedMinecraftVersions = ModVersion.ACCEPTED_VERSION, updateJSON = ModVersion.UPDATE)
 public class FFactory {
 
+    @Instance
+    public static FFactory instance;
+
     public static final String MODID = "ffactory";
     public static final String NAME = "Forge Your World Factory";
     public static final String CLIENT_PROXY_CLASSE = "forgingaura.forgeyourworld.ffactory.proxy.FactoryClient";
     public static final String SERVER_PROXY_CLASSE = "forgingaura.forgeyourworld.ffactory.proxy.FactoryServer";
+    public static final int GUI_BARREL = 0;
+    public static final int GUI_STEAMPUNK_FURNACE = 1;
 
     public static Configuration config;
 
@@ -54,6 +62,7 @@ public class FFactory {
     public void init(FMLInitializationEvent event) {
         if(FactoryConfig.enable_factory == true) {
             proxy.init();
+            NetworkRegistry.INSTANCE.registerGuiHandler(FFactory.instance, new FactoryGuiHandler());
             System.out.println("Initialization of Forge Your World Factory Done");
         }
     }

@@ -15,7 +15,7 @@ public class Beer extends ItemFood {
         super(2, 0.6F, false);
         this.setUnlocalizedName(unlocalizedName);
         this.setRegistryName(new ResourceLocation(FFoods.MODID, unlocalizedName));
-        this.setMaxStackSize(1);
+        this.setMaxStackSize(8);
     }
 
     public EnumAction getItemUseAction(ItemStack stack) {

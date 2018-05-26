@@ -1,5 +1,7 @@
 package forgingaura.forgeyourworld.ffactory.gui;
 
+import forgingaura.forgeyourworld.FFactory;
+import forgingaura.forgeyourworld.ffactory.Container.ContainerSteampunkFurnace;
 import forgingaura.forgeyourworld.ffactory.tileentity.TileEntitySteampunkFurnace;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;
@@ -11,14 +13,14 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class GuiSteampunkFurnace extends GuiContainer {
-    private static final ResourceLocation FURNACE_GUI_TEXTURES = new ResourceLocation("ffactory:textures/gui/steampunk_furnace.png");
+    private static final ResourceLocation FURNACE_GUI_TEXTURES = new ResourceLocation(FFactory.MODID + ":textures/gui/steampunk_furnace.png");
     /** The player inventory bound to this GUI. */
     private final InventoryPlayer playerInventory;
     private final IInventory tileFurnace;
 
     public GuiSteampunkFurnace(InventoryPlayer playerInv, IInventory furnaceInv)
     {
-        super(new ContainerFurnace(playerInv, furnaceInv));
+        super(new ContainerSteampunkFurnace(playerInv, furnaceInv));
         this.playerInventory = playerInv;
         this.tileFurnace = furnaceInv;
     }
