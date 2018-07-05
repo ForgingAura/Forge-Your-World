@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "B B",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "gemTerillium"
+    }
+  },
+  "result": {
+    "item": "farmory:terilliumhelmet"
+  }
+}

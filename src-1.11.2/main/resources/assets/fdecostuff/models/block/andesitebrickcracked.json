@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "fdecostuff:blocks/brick/andesitebrick_cracked"
+    }
+}

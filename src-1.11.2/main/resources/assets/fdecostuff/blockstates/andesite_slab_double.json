@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=top": { "model": "fdecostuff:andesitebrick" },
+		"half=bottom": { "model": "fdecostuff:andesitebrick" }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "AAB",
+    " C "
+  ],
+  "key": {
+    "A": {
+      "type": "forge:ore_dict",
+      "ore": "cobblestone"
+    },
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    }
+  },
+  "result": {
+    "item": "ffoods:kitchenknife"
+  }
+}
